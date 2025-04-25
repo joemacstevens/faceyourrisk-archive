@@ -1,0 +1,4633 @@
+
+html {
+  scroll-behavior: smooth;
+}
+
+html, body {
+  height: 100%; }
+
+.poppins {
+  font-family: 'Poppins', sans-serif; }
+
+.light-font {
+  font-weight: 100; }
+
+.dark-text {
+  color: #000; }
+
+.text-uppercase {
+  text-transform: uppercase; }
+
+.make-large {
+  width: 100%; }
+
+.white-copy {
+  color: #fff; }
+
+.navbar .social-icon-tray {
+  display: none; }
+
+body {
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+  background-color: #0b343e; }
+
+.center-absolute {
+  bottom: 0;
+  left: 0;
+  margin-left: auto;
+  margin-right: auto;
+  right: 0;
+  position: absolute; }
+
+section {
+  position: relative;
+  overflow: hidden; }
+
+.scrollmagic-pin-spacer {
+  float: left;
+  width: 100%; }
+
+#home {
+  z-index: 2;
+  overflow: visible; }
+
+#hero h1 {
+  font-size: 40px;
+  font-weight: 300;
+  margin-bottom: 30px;
+  line-height: 1.2em; }
+
+#hero h1 b {
+  font-weight: 500; }
+
+#hero p {
+  font-size: 19px; }
+
+#hero .sub-head {
+  margin-bottom: 40px; }
+
+#allergy-carousel {
+  margin-top: 60px; }
+
+#education {
+  z-index: 1;
+  top: -284px; }
+
+.push-down-under-arrow {
+  padding-top: 180px;
+  position: relative;
+  height: 100vh;
+  overflow: hidden; }
+
+#home {
+  min-height: 888px;
+  background: url(../images/0.0_home_global/0.0_Home_Background.png);
+  background-repeat: no-repeat;
+  background-position: 50% 100%; }
+
+#hero {
+  padding-top: 188px; }
+
+#education {
+  background: url(../images/education-background.jpg);
+  background-position: 50% -206px; }
+
+#treatment {
+  background: url(../images/treatmeant_background.jpg); }
+
+#treatment, #education {
+  height: 768px;
+  background-color: #d7d6cf;
+  color: #000000; }
+
+#allergy-carousel .item img {
+  margin: 0 auto;
+  max-height: 100%; }
+
+#allergy-carousel .carousel-inner {
+  width: 54%;
+  overflow: visible;
+  overflow-x: hidden;
+  margin: 0 auto; }
+
+.carousel-control.right,
+.carousel-control.left {
+  background-image: none; }
+
+.carousel-control.right {
+  -webkit-transform: scaleX(-1);
+  -ms-transform: scaleX(-1);
+  -moz-transform: scaleX(-1);
+  transform: scaleX(-1); }
+
+#allergy-carousel .flex-container {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center; }
+
+#allergy-carousel .frame {
+  height: 125px;
+  width: 125px;
+  display: inline-block; }
+
+/* centered columns styles */
+.row-centered {
+  text-align: center; }
+
+.col-centered {
+  display: inline-block;
+  float: none;
+  /* inline-block space fix */
+  margin-right: -4px; }
+
+#myrisk .scene {
+  visibility: visible; }
+
+.scroll_mouse {
+  width: 30px;
+  margin: 0 auto; }
+
+.scroll-down {
+  color: #fff; }
+
+/* Center navbar at 767px*/
+@media (min-width: 767px) {
+  .navbar-nav {
+    width: 100%;
+    text-align: center; }
+
+  .navbar-nav > li {
+    float: none;
+    display: inline-block; } }
+#mobileBestViewed {
+  display: none; }
+
+.portrait_only_cont {
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/landscape_only_overlay_bg.png");
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1050; }
+
+.portrait_only_img_cont {
+  margin: 60px auto 20px;
+  width: 85px; }
+  .portrait_only_img_cont img {
+    width: 85px; }
+
+.portrait_only_copy {
+  font-size: 23px;
+  text-align: center; }
+  .portrait_only_copy p {
+    margin: 0; }
+
+/* 
+    Created on : Mar 24, 2016, 11:21:07 AM
+    Author     : Mike
+*/
+.invisible {
+  visibility: hidden;
+  opacity: 0; }
+
+label.error {
+  position: absolute;
+  color: red; }
+
+.btn {
+  padding: 3px 11px;
+  cursor: pointer;
+  margin: 0 5px 5px 0;
+  background-color: #ffaf4c;
+  box-shadow: 5px 5px 0px #e58611;
+  color: #fae0c8;
+  text-transform: uppercase;
+  border-radius: 0;
+  transition: all 250ms; }
+  .btn.lg {
+    font-size: 1.5em;
+    padding: 7px 13px; }
+  .btn:hover, .btn:active, .btn:focus {
+    color: #fff !important; }
+  .btn.selected {
+    color: #e58611;
+    background: #fff; }
+  .btn.success {
+    color: #b1dfdb;
+    background-color: #3fbdb2;
+    box-shadow: 2px 2px 0px #08766d; }
+    .btn.success.lg {
+      box-shadow: 4px 4px 0px #08766d; }
+      .btn.success.lg:hover {
+        box-shadow: 4px 4px 0px #04564e; }
+    .btn.success.selected {
+      color: #08766d; }
+    .btn.success:hover, .btn.success:active, .btn.success:focus {
+      background-color: #1e9a8c;
+      box-shadow: 2px 2px 0px #04564e; }
+    .btn.success:active {
+      -webkit-transform: translateX(2px) translateY(2px) !important;
+      -ms-transform: translateX(2px) translateY(2px) !important;
+      -moz-transform: translateX(2px) translateY(2px) !important;
+      transform: translateX(2px) translateY(2px) !important;
+      box-shadow: 0 0 0 #04564e !important; }
+
+.no-padding {
+  padding: 0; }
+
+.img-responsive {
+  max-width: 100%; }
+
+.line-break {
+  display: block; }
+
+.extra-padding-vert {
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+.modal .close {
+  position: absolute;
+  top: 4px;
+  right: 6px;
+  z-index: 1;
+  background: #ebebeb;
+  opacity: .9;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  color: #b4b4b4;
+  box-shadow: 2px 2px 0 #b4b4b4;
+  transition: opacity 250ms;
+  cursor: pointer; }
+  .modal .close.lg {
+    position: absolute;
+    top: 16px;
+    right: 24px;
+    z-index: 1;
+    background: #ebebeb;
+    opacity: .9;
+    width: 40px;
+    height: 40px;
+    line-height: 20px;
+    text-align: center;
+    color: #b4b4b4;
+    box-shadow: 2px 2px 0 #b4b4b4;
+    transition: opacity 250ms;
+    font-size: 2em; }
+  .modal .close:hover {
+    opacity: 1; }
+
+.selectric-wrapper {
+  position: relative;
+  cursor: pointer; }
+
+.selectric-responsive {
+  width: 100%; }
+
+.selectric {
+  border: 1px solid #DDD;
+  background: #F8F8F8;
+  position: relative; }
+  .selectric .label {
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0 38px 0 10px;
+    font-size: 12px;
+    line-height: 38px;
+    color: #444;
+    height: 38px;
+    user-select: none; }
+  .selectric .button {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 38px;
+    height: 38px;
+    color: #BBB;
+    text-align: center;
+    font: 0/0 a;
+    *font: 20px/38px Lucida Sans Unicode, Arial Unicode MS, Arial; }
+    .selectric .button:after {
+      content: " ";
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      margin: auto;
+      width: 0;
+      height: 0;
+      border: 4px solid transparent;
+      border-top-color: #BBB;
+      border-bottom: none; }
+
+.selectric-hover .selectric {
+  border-color: #c4c4c4; }
+  .selectric-hover .selectric .button {
+    color: #a2a2a2; }
+    .selectric-hover .selectric .button:after {
+      border-top-color: #a2a2a2; }
+
+.selectric-open {
+  z-index: 9999; }
+  .selectric-open .selectric {
+    border-color: #c4c4c4; }
+  .selectric-open .selectric-items {
+    display: block; }
+
+.selectric-disabled {
+  filter: alpha(opacity=50);
+  opacity: 0.5;
+  cursor: default;
+  user-select: none; }
+
+.selectric-hide-select {
+  position: relative;
+  overflow: hidden;
+  width: 0;
+  height: 0; }
+  .selectric-hide-select select {
+    position: absolute;
+    left: -100%;
+    display: none; }
+
+.selectric-input {
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 1px !important;
+  height: 1px !important;
+  outline: none !important;
+  border: none !important;
+  *font: 0/0 a !important;
+  background: none !important; }
+
+.selectric-temp-show {
+  position: absolute !important;
+  visibility: hidden !important;
+  display: block !important; }
+
+/* Items box */
+.selectric-items {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #F8F8F8;
+  border: 1px solid #c4c4c4;
+  z-index: -1;
+  box-shadow: 0 0 10px -6px; }
+  .selectric-items .selectric-scroll {
+    height: 100%;
+    overflow: auto; }
+  .selectric-above .selectric-items {
+    top: auto;
+    bottom: 100%; }
+  .selectric-items ul, .selectric-items li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+    line-height: 20px;
+    min-height: 20px; }
+  .selectric-items li {
+    display: block;
+    padding: 10px;
+    color: #666;
+    cursor: pointer; }
+    .selectric-items li.selected {
+      background: #EFEFEF;
+      color: #444; }
+    .selectric-items li:hover {
+      background: #F0F0F0;
+      color: #444; }
+  .selectric-items .disabled {
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+    cursor: default !important;
+    background: none !important;
+    color: #666 !important;
+    user-select: none; }
+  .selectric-items .selectric-group .selectric-group-label {
+    font-weight: bold;
+    padding-left: 10px;
+    cursor: default;
+    user-select: none;
+    background: none;
+    color: #444; }
+  .selectric-items .selectric-group.disabled li {
+    filter: alpha(opacity=100);
+    opacity: 1; }
+  .selectric-items .selectric-group li {
+    padding-left: 25px; }
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 4, 2016, 10:58:09 PM
+    Author     : Mike
+*/
+.datepicker {
+  z-index: 999 !important;
+  color: #000; }
+
+/* 
+    Created on : Apr 1, 2016, 1:17:45 PM
+    Author     : Mike
+*/
+#mainNav #home-anchor {
+  -webkit-transform: translateY(25%);
+  -ms-transform: translateY(25%);
+  -moz-transform: translateY(25%);
+  transform: translateY(25%); }
+  #mainNav #home-anchor > a {
+    height: 1.75em;
+    overflow: hidden;
+    padding: 0; }
+    #mainNav #home-anchor > a .img-responsive {
+      height: 200%;
+      position: relative;
+      top: -100%; }
+    #mainNav #home-anchor > a:hover .img-responsive {
+      top: 0; }
+#mainNav #info-anchor {
+  cursor: pointer; }
+#mainNav a {
+  cursor: pointer; }
+
+a {
+  cursor: pointer; }
+
+.navbar-default {
+  background-color: transparent;
+  border-color: #e7e7e7;
+  border: none;
+  /**
+  ** STATES
+  **/ }
+  .navbar-default .navbar-nav > li > a {
+    color: #fff;
+    text-transform: uppercase;
+    background: transparent; }
+  .navbar-default .navbar-nav > .active > a,
+  .navbar-default .navbar-nav > li > a:focus,
+  .navbar-default .navbar-nav > li > a:hover {
+    color: #ffa235 !important;
+    background: transparent !important; }
+  .navbar-default .navbar-nav > .active > a {
+    font-weight: 900; }
+  .navbar-default .mobile-icon,
+  .navbar-default .dark-icon, .navbar-default .hover-icon {
+    display: none; }
+  .navbar-default #info-anchor {
+    padding-left: 0; }
+    .navbar-default #info-anchor a {
+      padding-left: 0; }
+    .navbar-default #info-anchor .icon {
+      display: inline-block;
+      position: relative; }
+      .navbar-default #info-anchor .icon > img {
+        height: 2em;
+        vertical-align: -6px; }
+    .navbar-default #info-anchor a:hover .icon .dark-icon, .navbar-default #info-anchor a:hover .icon .light-icon, .navbar-default #info-anchor a:hover .icon .mobile-icon {
+      display: none; }
+    .navbar-default #info-anchor a:hover .icon .hover-icon {
+      display: inline-block; }
+  .navbar-default.dark .navbar-nav > li > a, .navbar-default.on-my-risk.on-risk-results .navbar-nav > li > a {
+    color: #000; }
+  .navbar-default.dark .dark-icon, .navbar-default.on-my-risk.on-risk-results .dark-icon {
+    display: inherit; }
+  .navbar-default.dark .light-icon, .navbar-default.on-my-risk.on-risk-results .light-icon {
+    display: none; }
+  .navbar-default.on-my-risk.on-risk-results {
+    background: #ECF9F3; }
+
+#whats-my-risk {
+  position: absolute;
+  right: 0;
+  width: auto;
+  height: 77px;
+  overflow: hidden; }
+  #whats-my-risk .risk-cta {
+    position: relative;
+    height: 202%; }
+    #whats-my-risk .risk-cta:hover {
+      top: -100%; }
+  #whats-my-risk .exclamation {
+    position: absolute;
+    top: 17%;
+    left: 18%;
+    width: 35px;
+    height: 44px;
+    z-index: 1; }
+
+#social-icons {
+  position: fixed;
+  bottom: 7px;
+  left: 95px;
+  z-index: 14;
+  height: 35px; }
+  #social-icons ul {
+    list-style: none;
+    padding: 0; }
+  #social-icons ul li {
+    display: inline-block;
+    margin: 0px 10px;
+    padding: 0;
+    max-width: 25px; }
+
+/* 
+    Created on : Apr 1, 2016, 2:03:59 PM
+    Author     : Mike
+*/
+#leaving-site-modal .modal-content {
+  background: #1f4972;
+  border: rgba(124, 150, 180, 0.5) 8px solid;
+  border-radius: 0;
+  padding: 20px; }
+#leaving-site-modal p.copy {
+  font-size: 1.4em;
+  margin-bottom: 22px; }
+#leaving-site-modal .leave-site-continue {
+  box-shadow: none; }
+
+.show {
+  display: initial !important; }
+
+.animated {
+  opacity: 1; }
+
+.container {
+  position: relative; }
+
+.loading #education .hide-on-load {
+  visibility: hidden; }
+
+.loading #education .animated {
+  opacity: 0; }
+
+#education .animated {
+  opacity: 1; }
+
+#education #scene3_copy p.copy {
+  width: 320px; }
+
+#education .hide-on-load {
+  visibility: visible; }
+
+.scene a {
+  color: #ffa235 !important;
+  text-decoration: underline; }
+
+.falling-allergens {
+  height: 100%;
+  width: 100%;
+  left: 0;
+  margin-left: auto;
+  margin-right: auto;
+  right: 0;
+  background-size: cover;
+  background-position-y: -170px;
+  z-index: 2;
+  position: absolute; }
+
+.falling-allergens .allergen {
+  background-position: 50%; }
+
+.falling-allergens .allergen1 {
+  -webkit-transform: rotate(-487deg);
+  -ms-transform: rotate(-487deg);
+  -moz-transform: rotate(-487deg);
+  transform: rotate(-487deg);
+  top: 60px;
+  left: 50px; }
+
+.falling-allergens .allergen2 {
+  -webkit-transform: rotate(139deg) scale(0.6);
+  -ms-transform: rotate(139deg) scale(0.6);
+  -moz-transform: rotate(139deg) scale(0.6);
+  transform: rotate(139deg) scale(0.6);
+  top: 51px;
+  left: 237px; }
+
+.falling-allergens .allergen3 {
+  -webkit-transform: rotate(-141deg) scale(0.5);
+  -ms-transform: rotate(-141deg) scale(0.5);
+  -moz-transform: rotate(-141deg) scale(0.5);
+  transform: rotate(-141deg) scale(0.5);
+  top: 114px;
+  left: -230px; }
+
+.falling-allergens .allergen4 {
+  -webkit-transform: rotate(-55deg) scale(0.7);
+  -ms-transform: rotate(-55deg) scale(0.7);
+  -moz-transform: rotate(-55deg) scale(0.7);
+  transform: rotate(-55deg) scale(0.7);
+  top: 120px;
+  left: -452px; }
+
+.falling-allergens .allergen5 {
+  -webkit-transform: rotate(-476deg) scale(0.4);
+  -ms-transform: rotate(-476deg) scale(0.4);
+  -moz-transform: rotate(-476deg) scale(0.4);
+  transform: rotate(-476deg) scale(0.4);
+  top: 10px;
+  left: -675px; }
+
+.falling-allergens .allergen6 {
+  -webkit-transform: rotate(-128deg) scale(0.6);
+  -ms-transform: rotate(-128deg) scale(0.6);
+  -moz-transform: rotate(-128deg) scale(0.6);
+  transform: rotate(-128deg) scale(0.6);
+  top: 273px;
+  left: -571px; }
+
+.falling-allergens .allergen7 {
+  -webkit-transform: rotate(97deg) scale(-0.6);
+  -ms-transform: rotate(97deg) scale(-0.6);
+  -moz-transform: rotate(97deg) scale(-0.6);
+  transform: rotate(97deg) scale(-0.6);
+  top: 326px;
+  left: -326px; }
+
+.falling-allergens .allergen8 {
+  -webkit-transform: rotate(-56deg) scale(0.7);
+  -ms-transform: rotate(-56deg) scale(0.7);
+  -moz-transform: rotate(-56deg) scale(0.7);
+  transform: rotate(-56deg) scale(0.7);
+  top: 317px;
+  left: 622px; }
+
+.falling-allergens .allergen9 {
+  -webkit-transform: rotate(234deg) scale(0.5);
+  -ms-transform: rotate(234deg) scale(0.5);
+  -moz-transform: rotate(234deg) scale(0.5);
+  transform: rotate(234deg) scale(0.5);
+  top: -92px;
+  left: 242px; }
+
+.falling-allergens .allergen10 {
+  -webkit-transform: rotate(-116deg) scale(0.5);
+  -ms-transform: rotate(-116deg) scale(0.5);
+  -moz-transform: rotate(-116deg) scale(0.5);
+  transform: rotate(-116deg) scale(0.5);
+  top: -34px;
+  left: 724px; }
+
+.falling-allergens .allergen11 {
+  -webkit-transform: rotate(210deg) scale(0.5);
+  -ms-transform: rotate(210deg) scale(0.5);
+  -moz-transform: rotate(210deg) scale(0.5);
+  transform: rotate(210deg) scale(0.5);
+  top: 113px;
+  left: 508px; }
+
+.falling-allergens .allergen12 {
+  -webkit-transform: rotate(317deg) scale(0.4);
+  -ms-transform: rotate(317deg) scale(0.4);
+  -moz-transform: rotate(317deg) scale(0.4);
+  transform: rotate(317deg) scale(0.4);
+  top: 296px;
+  left: -190px; }
+
+.falling-allergens .allergen13 {
+  -webkit-transform: rotate(-49deg) scale(0.4);
+  -ms-transform: rotate(-49deg) scale(0.4);
+  -moz-transform: rotate(-49deg) scale(0.4);
+  transform: rotate(-49deg) scale(0.4);
+  top: 434px;
+  left: -364px; }
+
+.falling-allergens .allergen14 {
+  -webkit-transform: rotate(-77deg) scale(0.7);
+  -ms-transform: rotate(-77deg) scale(0.7);
+  -moz-transform: rotate(-77deg) scale(0.7);
+  transform: rotate(-77deg) scale(0.7);
+  top: -80px;
+  left: -161px; }
+
+.falling-allergens .allergen15 {
+  -webkit-transform: rotate(-206deg) scale(0.4);
+  -ms-transform: rotate(-206deg) scale(0.4);
+  -moz-transform: rotate(-206deg) scale(0.4);
+  transform: rotate(-206deg) scale(0.4);
+  top: 293px;
+  left: 200px; }
+
+.falling-allergens .allergen16 {
+  -webkit-transform: rotate(-397deg) scale(0.4);
+  -ms-transform: rotate(-397deg) scale(0.4);
+  -moz-transform: rotate(-397deg) scale(0.4);
+  transform: rotate(-397deg) scale(0.4);
+  top: 427px;
+  left: 375px; }
+
+.falling-allergens .allergen17 {
+  -webkit-transform: rotate(-126deg) scale(0.3);
+  -ms-transform: rotate(-126deg) scale(0.3);
+  -moz-transform: rotate(-126deg) scale(0.3);
+  transform: rotate(-126deg) scale(0.3);
+  top: 306px;
+  left: 397px; }
+
+.everyscenecontainer {
+  display: block;
+  position: absolute;
+  height: 768px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  margin-left: auto;
+  margin-right: auto;
+  right: 0; }
+
+.container-relative {
+  position: relative; }
+
+.scene {
+  height: 768px;
+  position: absolute;
+  left: 0;
+  margin-left: auto;
+  margin-right: auto;
+  right: 0;
+  visibility: hidden; }
+
+.scene header {
+  top: 150px;
+  z-index: 5; }
+
+#education .copy-container {
+  z-index: 3;
+  position: relative; }
+
+.everyscenecontainer p,
+.scene p {
+  font-size: 19px; }
+
+#education header h3 {
+  font-size: 26px; }
+
+#education .copy.larger {
+  font-size: 30px; }
+
+#education .copy .larger {
+  font-size: 30px; }
+
+#education .copy.disclaimer {
+  font-size: 14px; }
+
+#education .copy.large {
+  font-size: 40px; }
+
+.scene1 .scene1,
+.scene2 .scene2,
+.scene3 .scene3,
+.scene4 .scene4,
+.scene5 .scene5,
+.scene6 .scene6,
+.scene7 .scene7,
+.scene8 .scene8,
+.scene9 .scene9,
+.scene10 .scene10,
+.scene11 .scene11,
+.scene12 .scene12,
+.scene13 .scene13,
+.scene14 .scene14,
+.scene15 .scene15,
+.scene16 .scene16 {
+  visibility: visible; }
+
+#education .copy-container {
+  z-index: 10; }
+
+#education #scene1-copy {
+  top: 235px; }
+
+#education .scene2 .copy-container {
+  top: 240px; }
+
+#education .scene3 .copy-container {
+  top: 20px; }
+
+#education .scene5 .copy-container {
+  top: 0; }
+
+#education .scene9 .copy-container {
+  top: 240px;
+  position: relative; }
+
+.disclaimers {
+  position: absolute;
+  bottom: 120px;
+  width: 100%; }
+
+#education.template {
+  background-image: url(templates/scene9.jpg);
+  background-position: 0,0;
+  background-position-y: -41px; }
+
+#education .scene10 .copy-container {
+  top: -30px; }
+
+#scene_13_header_copy {
+  top: -50px;
+  z-index: 12; }
+  #scene_13_header_copy h3 {
+    line-height: 1.5em; }
+
+#cardiovascular-symptoms-header {
+  top: 195px; }
+
+#cardiovascular-symptoms-copy-1 {
+  top: 200px; }
+
+#cardiovascular-symptoms-copy-2 {
+  top: 41px; }
+
+#respiratory-header {
+  top: -30px; }
+
+#scene4-copy {
+  top: 149px; }
+
+#scene4-header {
+  top: -30px; }
+
+#scene5-copy {
+  top: 130px; }
+
+#scene5-header {
+  top: 0; }
+
+#education .scene8 .copy-container {
+  top: -200px; }
+
+#education .scene11 .copy-container {
+  top: 150px; }
+
+[data-allergen="bee"] .furniture {
+  background: url("../images/1.0_education/background_outside/Outside_Background.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center bottom; }
+
+.furniture {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  background: url("../images/1.0_education/background_furniture/background_furniture.png");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  margin-bottom: 79px; }
+
+.furniture div {
+  opacity: 1; }
+
+.chairs {
+  background: url("../images/1.0_education/background_furniture/resized/furniture01.png");
+  width: 922px;
+  height: 188px;
+  background-size: cover;
+  bottom: 80px;
+  left: -150px; }
+
+.picture-frame {
+  width: 514px;
+  height: 305px;
+  background-image: url("../images/1.0_education/background_furniture/resized/furniture02.png");
+  background-size: contain;
+  opacity: .5;
+  bottom: 227px;
+  left: 310px; }
+
+.bookshelf-and-lamp {
+  width: 1263px;
+  height: 555px;
+  background-image: url("../images/1.0_education/background_furniture/resized/furniture05.png");
+  background-size: contain;
+  left: -190px;
+  opacity: .5;
+  bottom: 67px; }
+
+.bookshelf-background {
+  width: 472px;
+  height: 394px;
+  background-image: url("../images/1.0_education/background_furniture/resized/furniture04.png");
+  background-size: contain;
+  bottom: 140px;
+  left: -750px; }
+
+.books {
+  width: 468px;
+  height: 367px;
+  background-image: url("../images/1.0_education/background_furniture/resized/furniture03.png");
+  background-size: contain;
+  bottom: 0;
+  left: 0;
+  position: absolute; }
+
+.bottom-bar {
+  background-image: url("../images/1.0_education/background_shadows/girl_shadow.png");
+  background-size: 1512px 100px;
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  bottom: -82px;
+  background-color: #0c343f;
+  background-repeat: no-repeat;
+  background-position: center center;
+  z-index: 2; }
+
+.targets {
+  /*
+background-image: url("/web/20190219044123im_/https://www.faceyourrisk.com/Content../images/1.0_education/additional_materials/target_large.gif");
+background-repeat: no-repeat;
+  */
+  position: absolute;
+  width: 108px;
+  height: 108px;
+  opacity: 0; }
+
+.falling-allergens .allergen .targets {
+  opacity: 0; }
+
+.falling-allergens .allergen.show-target {
+  background-image: none; }
+
+.falling-allergens .allergen.show-target .targets {
+  opacity: 1; }
+
+.falling-allergens .allergen.hide-allergen {
+  opacity: 0 !important;
+  transition-delay: .75s; }
+
+.circle_graph {
+  width: 441px;
+  height: 442px;
+  top: 219px;
+  left: -580px;
+  z-index: 1; }
+
+#graph-switch .graph {
+  opacity: 0;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0; }
+
+#graph-switch.graph-1 .graph-1 {
+  opacity: 1;
+  z-index: 1; }
+
+#graph-switch.graph-2 .graph-2 {
+  opacity: 1;
+  z-index: 2; }
+
+#graph-switch.graph-3 .graph-3 {
+  opacity: 1;
+  z-index: 3; }
+
+#graph-switch.graph-4 .graph-4 {
+  opacity: 1;
+  z-index: 4; }
+
+#graph-switch.graph-5 .graph-5 {
+  opacity: 1;
+  z-index: 5; }
+
+#graph-switch.graph-6 .graph-6 {
+  opacity: 1;
+  z-index: 6; }
+
+#graph-switch.graph-7 .graph-7 {
+  opacity: 1;
+  z-index: 7; }
+
+#graph-switch.graph-8 .graph-8 {
+  opacity: 1;
+  z-index: 8; }
+
+#graph-switch.graph-9 .graph-9 {
+  opacity: 1;
+  z-index: 9; }
+
+#graph-switch.graph-10 .graph-10 {
+  opacity: 1;
+  z-index: 10; }
+
+#graph-switch.graph-11 .graph-11 {
+  opacity: 1;
+  z-index: 11; }
+
+#graph-switch.graph-12 .graph-12 {
+  opacity: 1;
+  z-index: 12; }
+
+#graph-switch.graph-13 .graph-13 {
+  opacity: 1;
+  z-index: 13; }
+
+.lady {
+  position: absolute;
+  top: 409px;
+  width: 292px;
+  z-index: 3;
+  margin-left: auto;
+  margin-right: auto;
+  left: -6px;
+  right: 0;
+  -webkit-transform: translate3d(0, 0, 0); }
+
+.lady .lady-img {
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  opacity: 0;
+  -webkit-transform: translate3d(0, 0, 0); }
+
+.lady-img.show {
+  opacity: 1; }
+
+.lady.half-raised {
+  /* animate */
+  -webkit-transform: translateY(-10px);
+  -ms-transform: translateY(-10px);
+  -moz-transform: translateY(-10px);
+  transform: translateY(-10px); }
+
+.lady.raised {
+  /* animate */
+  -webkit-transform: translateY(-289px);
+  -ms-transform: translateY(-289px);
+  -moz-transform: translateY(-289px);
+  transform: translateY(-289px); }
+
+.lady.last-raised {
+  /* animate */
+  -webkit-transform: translateY(-10px);
+  -ms-transform: translateY(-10px);
+  -moz-transform: translateY(-10px);
+  transform: translateY(-10px); }
+
+#skeleton {
+  top: 7px;
+  left: -39px;
+  max-width: 123%; }
+
+#girl_clothing_sick,
+#girl_clothing {
+  width: 101%;
+  z-index: 2;
+  top: -4px;
+  left: 0;
+  max-width: 150%; }
+
+#girl_clothing_sick {
+  width: 97%; }
+
+#girl_digestive,
+#girl_respiratory,
+#girl_cardio,
+#girl_cardio_loop,
+#girl_skin,
+#girl_histamine,
+#girl_histamine_loop {
+  max-width: 127%;
+  left: -41px;
+  top: -18px; }
+
+#girl_digestive,
+#girl_clothing_sick,
+#girl_respiratory,
+#girl_cardio,
+#girl_cardio_loop,
+#girl_histamine_loop,
+#girl_skin {
+  opacity: 0; }
+
+.histamines {
+  width: 312px;
+  height: 670px;
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+#histamine-swtich img {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  transform: translateZ(0); }
+
+#histamine-swtich.histamine-1 .histamine-1 {
+  opacity: 1; }
+
+#histamine-swtich.histamine-2 .histamine-2 {
+  opacity: 1; }
+
+#histamine-swtich.histamine-3 .histamine-3 {
+  opacity: 1; }
+
+#histamine-swtich.histamine-4 .histamine-4 {
+  opacity: 1; }
+
+#histamine-swtich.histamine-5 .histamine-5 {
+  opacity: 1; }
+
+#histamine-swtich.histamine-6 .histamine-6 {
+  opacity: 1; }
+
+#histamine-swtich.histamine-7 .histamine-7 {
+  opacity: 1; }
+
+#histamine-swtich.histamine-8 .histamine-8 {
+  opacity: 1; }
+
+#histamine-swtich.histamine-9 .histamine-9 {
+  opacity: 1; }
+
+#histamine-swtich.histamine-10 .histamine-10 {
+  opacity: 1; }
+
+#histamine-swtich.histamine-11 .histamine-11 {
+  opacity: 1; }
+
+#histamine-swtich.histamine-12 .histamine-12 {
+  opacity: 1; }
+
+#histamine-swtich.histamine-13 .histamine-13 {
+  opacity: 1; }
+
+#histamine-swtich.histamine-14 .histamine-14 {
+  opacity: 1; }
+
+#histamine-swtich.histamine-15 .histamine-15 {
+  opacity: 1; }
+
+#histamine-swtich.histamine-16 .histamine-16 {
+  opacity: 1; }
+
+#histamine-swtich.histamine-17 .histamine-17 {
+  opacity: 1; }
+
+#histamine-swtich.histamine-18 .histamine-18 {
+  opacity: 1; }
+
+#histamine-swtich.histamine-19 .histamine-19 {
+  opacity: 1; }
+
+#histamine-swtich.histamine-20 .histamine-20 {
+  opacity: 1; }
+
+#histamine-swtich.histamine-21 .histamine-21 {
+  opacity: 1; }
+
+#histamine-swtich.histamine-22 .histamine-22 {
+  opacity: 1; }
+
+#histamine-swtich.histamine-23 .histamine-23 {
+  opacity: 1; }
+
+#histamine-swtich.histamine-24 .histamine-24 {
+  opacity: 1; }
+
+#histamine-swtich.histamine-25 .histamine-25 {
+  opacity: 1; }
+
+#histamine-swtich.histamine-26 .histamine-26 {
+  opacity: 1; }
+
+#histamine-swtich.histamine-27 .histamine-27 {
+  opacity: 1; }
+
+#histamine-swtich.histamine-28 .histamine-28 {
+  opacity: 1; }
+
+#histamine-swtich.histamine-29 .histamine-29 {
+  opacity: 1; }
+
+#histamine-swtich.histamine-30 .histamine-30 {
+  opacity: 1; }
+
+#histamine-swtich.histamine-31 .histamine-31 {
+  opacity: 1; }
+
+#histamine-swtich.histamine-32 .histamine-32 {
+  opacity: 1; }
+
+#histamine-swtich.histamine-33 .histamine-33 {
+  opacity: 1; }
+
+#histamine-swtich.histamine-34 .histamine-34 {
+  opacity: 1; }
+
+#histamine-swtich.histamine-35 .histamine-35 {
+  opacity: 1; }
+
+#histamine-swtich.histamine-36 .histamine-36 {
+  opacity: 1; }
+
+.allergen {
+  top: 594px;
+  left: 10px;
+  height: 125px;
+  width: 125px;
+  z-index: 2; }
+
+.slide-scrolling .drop-allergen {
+  visibility: hidden !important; }
+
+.drop-allergen {
+  z-index: 10;
+  bottom: 0;
+  background-position: center center;
+  left: 0;
+  opacity: 0; }
+
+.allergen {
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.scrolling #allergy-carousel .item {
+  opacity: 0; }
+
+.scrolling .carousel-control {
+  opacity: 0;
+  transition-duration: .5s;
+  -webkit-transition-duration: .5s; }
+
+.scrolling .drop-allergen {
+  opacity: 1; }
+
+#drop-allergen-education {
+  z-index: 3; }
+
+[data-allergen="wheat"] #drop-allergen-education {
+  top: -103px;
+  left: 0px; }
+
+[data-allergen="peanut"] #drop-allergen-education {
+  top: -84px;
+  left: 0px; }
+
+[data-allergen="dairy"] #drop-allergen-education {
+  top: -45px;
+  left: 0px; }
+
+[data-allergen="bee"] #drop-allergen-education {
+  top: -65px;
+  left: 0px; }
+
+[data-allergen="eggs"] #drop-allergen-education {
+  top: -86px;
+  left: 0px; }
+
+[data-allergen="fish"] #drop-allergen-education {
+  top: -53px;
+  left: 0; }
+
+[data-allergen="shellfish"] #drop-allergen-education {
+  top: -61px;
+  left: 0; }
+
+[data-allergen="soy"] #drop-allergen-education {
+  top: -82px;
+  left: 0px; }
+
+[data-allergen="tree_nut"] #drop-allergen-education {
+  top: -112px;
+  left: 0px; }
+
+[data-allergen="wheat"] .drop-allergen {
+  top: 0;
+  left: 0px; }
+
+[data-allergen="peanut"] .drop-allergen {
+  top: -38px;
+  left: 0px; }
+
+[data-allergen="dairy"] .drop-allergen {
+  top: 0;
+  left: 0px; }
+
+[data-allergen="bee"] .drop-allergen {
+  top: -23px;
+  left: 0px; }
+
+[data-allergen="eggs"] .drop-allergen {
+  top: 0;
+  left: 0px; }
+
+[data-allergen="fish"] .drop-allergen {
+  top: 0;
+  left: 0; }
+
+[data-allergen="shellfish"] .drop-allergen {
+  top: 0;
+  left: 0; }
+
+[data-allergen="soy"] .drop-allergen {
+  top: 0;
+  left: 0px; }
+
+[data-allergen="tree_nut"] .drop-allergen {
+  top: 0;
+  left: 0px; }
+
+.dynamic-allergen-copy {
+  display: none; }
+
+[data-allergen="peanut"] .allergen {
+  background-image: url("../images/0.0_home_global/peanut.png"); }
+
+[data-allergen="dairy"] .allergen {
+  background-image: url("../images/0.0_home_global/dairy.png"); }
+
+[data-allergen="bee"] .allergen {
+  background-image: url("../images/0.0_home_global/bee.png"); }
+
+[data-allergen="eggs"] .allergen {
+  background-image: url("../images/0.0_home_global/eggs.png"); }
+
+[data-allergen="fish"] .allergen {
+  background-image: url("../images/0.0_home_global/fish.png"); }
+
+[data-allergen="shellfish"] .allergen {
+  background-image: url("../images/0.0_home_global/shellfish.png"); }
+
+[data-allergen="soy"] .allergen {
+  background-image: url("../images/0.0_home_global/soy.png"); }
+
+[data-allergen="tree_nut"] .allergen {
+  background-image: url("../images/0.0_home_global/tree_nut.png"); }
+
+[data-allergen="wheat"] .allergen {
+  background-image: url("../images/0.0_home_global/wheat.png"); }
+
+[data-allergen="peanut"] .peanut.dynamic-allergen-copy {
+  display: inline; }
+
+[data-allergen="dairy"] .dairy.dynamic-allergen-copy {
+  display: inline; }
+
+[data-allergen="bee"] .bee.dynamic-allergen-copy {
+  display: inline; }
+
+[data-allergen="eggs"] .eggs.dynamic-allergen-copy {
+  display: inline; }
+
+[data-allergen="fish"] .fish.dynamic-allergen-copy {
+  display: inline; }
+
+[data-allergen="shellfish"] .shellfish.dynamic-allergen-copy {
+  display: inline; }
+
+[data-allergen="soy"] .soy.dynamic-allergen-copy {
+  display: inline; }
+
+[data-allergen="tree_nut"] .tree_nut.dynamic-allergen-copy {
+  display: inline; }
+
+[data-allergen="wheat"] .wheat.dynamic-allergen-copy {
+  display: inline; }
+
+.microscope {
+  transform-origin: left bottom;
+  -webkit-transform-origin-x: left;
+  -webkit-transform-origin-y: bottom;
+  z-index: 2; }
+
+.respiratory-microscope-left {
+  transform-origin: right middle;
+  -webkit-transform-origin-x: right;
+  -webkit-transform-origin-y: middle; }
+
+.microscope-histamine {
+  width: 400px;
+  height: 235px;
+  position: absolute;
+  top: 288px;
+  left: 195px;
+  display: none;
+  -webkit-transform: rotate(11deg);
+  -ms-transform: rotate(11deg);
+  -moz-transform: rotate(11deg);
+  transform: rotate(11deg); }
+
+.digestive-system {
+  top: 187px;
+  left: -16px;
+  width: 121px;
+  z-index: 5; }
+
+#education .scene5 .digestive-system {
+  display: block; }
+
+.digestive-symptoms-container {
+  top: 30px;
+  z-index: 1; }
+
+.digestive-symptoms-container .image-container {
+  position: relative; }
+
+.digestive-symptoms-container .vomit img {
+  top: -75px;
+  position: relative; }
+
+.digestive-symptoms-container .nausea {
+  top: -23px; }
+
+.digestive-symptoms-container .nausea img {
+  top: -63px;
+  position: relative; }
+
+.digestive-symptoms-container .dia {
+  top: -33px; }
+
+.digestive-symptoms-container .dia img {
+  top: -35px;
+  position: relative; }
+
+.digestive-symptoms-container .digestive-symtpoms-copy {
+  position: absolute;
+  top: 63px;
+  width: 90%;
+  text-align: center;
+  font-size: 22px; }
+
+.digestive-symptoms-container .dia .digestive-symtpoms-copy {
+  top: 111px; }
+
+.digestive-symptoms-container .vomit .digestive-symtpoms-copy {
+  top: 80px; }
+
+.digestive-symptoms-container .nausea .digestive-symtpoms-copy {
+  top: 87px; }
+
+.digestive-symptoms-container .dia .digestive-symtpoms-copy {
+  top: 111px; }
+
+.cardio-system {
+  width: 239px;
+  top: 228px;
+  left: 0; }
+
+.heart {
+  width: 399px;
+  height: auto;
+  left: -751px;
+  bottom: 113px;
+  z-index: 5; }
+
+.bloodstream {
+  width: 438px;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0; }
+  .bloodstream .bloodstream {
+    width: 100%;
+    height: 100%;
+    opacity: 0; }
+
+.bloodstream-vessel {
+  display: block;
+  height: 950px;
+  width: 149px;
+  position: absolute;
+  left: 89%;
+  top: 4px;
+  background-size: contain; }
+
+.bloodstream-cells {
+  display: block;
+  height: 100%;
+  width: 100%;
+  background-size: contain; }
+
+#bloodstream-label {
+  position: absolute;
+  top: 60px;
+  width: 238px;
+  left: 50%;
+  z-index: 2; }
+
+#bloodstream-frames {
+  position: absolute;
+  top: 0;
+  left: -140px;
+  height: 100%; }
+
+.bloodstream-1 .bloodstream-1 {
+  opacity: 1 !important;
+  background-repeat: no-repeat; }
+
+.bloodstream-2 .bloodstream-2 {
+  opacity: 1 !important;
+  background-repeat: no-repeat; }
+
+.bloodstream-3 .bloodstream-3 {
+  opacity: 1 !important;
+  background-repeat: no-repeat; }
+
+.bloodstream-4 .bloodstream-4 {
+  opacity: 1 !important;
+  background-repeat: no-repeat; }
+
+.bloodstream-5 .bloodstream-5 {
+  opacity: 1 !important;
+  background-repeat: no-repeat; }
+
+.bloodstream-6 .bloodstream-6 {
+  opacity: 1 !important;
+  background-repeat: no-repeat; }
+
+.bloodstream-7 .bloodstream-7 {
+  opacity: 1 !important;
+  background-repeat: no-repeat; }
+
+.bloodstream-8 .bloodstream-8 {
+  opacity: 1 !important;
+  background-repeat: no-repeat; }
+
+.bloodstream-9 .bloodstream-9 {
+  opacity: 1 !important;
+  background-repeat: no-repeat; }
+
+.bloodstream-10 .bloodstream-10 {
+  opacity: 1 !important;
+  background-repeat: no-repeat; }
+
+.bloodstream-11 .bloodstream-11 {
+  opacity: 1 !important;
+  background-repeat: no-repeat; }
+
+.bloodstream-12 .bloodstream-12 {
+  opacity: 1 !important;
+  background-repeat: no-repeat; }
+
+.bloodstream-13 .bloodstream-13 {
+  opacity: 1 !important;
+  background-repeat: no-repeat; }
+
+.bloodstream-14 .bloodstream-14 {
+  opacity: 1 !important;
+  background-repeat: no-repeat; }
+
+.bloodstream-15 .bloodstream-15 {
+  opacity: 1 !important;
+  background-repeat: no-repeat; }
+
+.bloodstream-16 .bloodstream-16 {
+  opacity: 1 !important;
+  background-repeat: no-repeat; }
+
+.bloodstream-17 .bloodstream-17 {
+  opacity: 1 !important;
+  background-repeat: no-repeat; }
+
+.bloodstream-18 .bloodstream-18 {
+  opacity: 1 !important;
+  background-repeat: no-repeat; }
+
+.bloodstream-19 .bloodstream-19 {
+  opacity: 1 !important;
+  background-repeat: no-repeat; }
+
+.bloodstream-20 .bloodstream-20 {
+  opacity: 1 !important;
+  background-repeat: no-repeat; }
+
+.bloodstream-21 .bloodstream-21 {
+  opacity: 1 !important;
+  background-repeat: no-repeat; }
+
+.bloodstream-22 .bloodstream-22 {
+  opacity: 1 !important;
+  background-repeat: no-repeat; }
+
+.bloodstream-23 .bloodstream-23 {
+  opacity: 1 !important;
+  background-repeat: no-repeat; }
+
+.bloodstream-24 .bloodstream-24 {
+  opacity: 1 !important;
+  background-repeat: no-repeat; }
+
+.bloodstream-25 .bloodstream-25 {
+  opacity: 1 !important;
+  background-repeat: no-repeat; }
+
+.bloodstream-26 .bloodstream-26 {
+  opacity: 1 !important;
+  background-repeat: no-repeat; }
+
+.bloodstream-27 .bloodstream-27 {
+  opacity: 1 !important;
+  background-repeat: no-repeat; }
+
+.bloodstream-28 .bloodstream-28 {
+  opacity: 1 !important;
+  background-repeat: no-repeat; }
+
+.bloodstream-29 .bloodstream-29 {
+  opacity: 1 !important;
+  background-repeat: no-repeat; }
+
+.bloodstream-30 .bloodstream-30 {
+  opacity: 1 !important;
+  background-repeat: no-repeat; }
+
+.bloodstream-31 .bloodstream-31 {
+  opacity: 1 !important;
+  background-repeat: no-repeat; }
+
+.bloodstream-32 .bloodstream-32 {
+  opacity: 1 !important;
+  background-repeat: no-repeat; }
+
+.bloodstream-33 .bloodstream-33 {
+  opacity: 1 !important;
+  background-repeat: no-repeat; }
+
+.bloodstream-34 .bloodstream-34 {
+  opacity: 1 !important;
+  background-repeat: no-repeat; }
+
+.bloodstream-35 .bloodstream-35 {
+  opacity: 1 !important;
+  background-repeat: no-repeat; }
+
+.bloodstream-36 .bloodstream-36 {
+  opacity: 1 !important;
+  background-repeat: no-repeat; }
+
+.bloodstream-37 .bloodstream-37 {
+  opacity: 1 !important;
+  background-repeat: no-repeat; }
+
+.bloodstream-38 .bloodstream-38 {
+  opacity: 1 !important;
+  background-repeat: no-repeat; }
+
+.bloodstream-39 .bloodstream-39 {
+  opacity: 1 !important;
+  background-repeat: no-repeat; }
+
+.bloodstream-40 .bloodstream-40 {
+  opacity: 1 !important;
+  background-repeat: no-repeat; }
+
+.bloodstream-41 .bloodstream-41 {
+  opacity: 1 !important;
+  background-repeat: no-repeat; }
+
+.bloodstream-42 .bloodstream-42 {
+  opacity: 1 !important;
+  background-repeat: no-repeat; }
+
+.bloodstream-43 .bloodstream-43 {
+  opacity: 1 !important;
+  background-repeat: no-repeat; }
+
+.bloodstream-44 .bloodstream-44 {
+  opacity: 1 !important;
+  background-repeat: no-repeat; }
+
+.bloodstream-45 .bloodstream-45 {
+  opacity: 1 !important;
+  background-repeat: no-repeat; }
+
+.bloodstream-46 .bloodstream-46 {
+  opacity: 1 !important;
+  background-repeat: no-repeat; }
+
+.bloodstream-47 .bloodstream-47 {
+  opacity: 1 !important;
+  background-repeat: no-repeat; }
+
+.bloodstream-48 .bloodstream-48 {
+  opacity: 1 !important;
+  background-repeat: no-repeat; }
+
+.bloodstream-49 .bloodstream-49 {
+  opacity: 1 !important;
+  background-repeat: no-repeat; }
+
+.bloodstream-50 .bloodstream-50 {
+  opacity: 1 !important;
+  background-repeat: no-repeat; }
+
+.bloodstream-51 .bloodstream-51 {
+  opacity: 1 !important;
+  background-repeat: no-repeat; }
+
+.bloodstream-52 .bloodstream-52 {
+  opacity: 1 !important;
+  background-repeat: no-repeat; }
+
+.bloodstream-53 .bloodstream-53 {
+  opacity: 1 !important;
+  background-repeat: no-repeat; }
+
+.bloodstream-54 .bloodstream-54 {
+  opacity: 1 !important;
+  background-repeat: no-repeat; }
+
+.bloodstream-55 .bloodstream-55 {
+  opacity: 1 !important;
+  background-repeat: no-repeat; }
+
+.bloodstream-56 .bloodstream-56 {
+  opacity: 1 !important;
+  background-repeat: no-repeat; }
+
+.bloodstream-57 .bloodstream-57 {
+  opacity: 1 !important;
+  background-repeat: no-repeat; }
+
+.bloodstream-58 .bloodstream-58 {
+  opacity: 1 !important;
+  background-repeat: no-repeat; }
+
+.bloodstream-59 .bloodstream-59 {
+  opacity: 1 !important;
+  background-repeat: no-repeat; }
+
+.bloodstream-60 .bloodstream-60 {
+  opacity: 1 !important;
+  background-repeat: no-repeat; }
+
+.bloodstream-61 .bloodstream-61 {
+  opacity: 1 !important;
+  background-repeat: no-repeat; }
+
+.bloodstream-62 .bloodstream-62 {
+  opacity: 1 !important;
+  background-repeat: no-repeat; }
+
+.bloodstream-63 .bloodstream-63 {
+  opacity: 1 !important;
+  background-repeat: no-repeat; }
+
+.bloodstream-64 .bloodstream-64 {
+  opacity: 1 !important;
+  background-repeat: no-repeat; }
+
+.bloodstream-65 .bloodstream-65 {
+  opacity: 1 !important;
+  background-repeat: no-repeat; }
+
+.bloodstream-66 .bloodstream-66 {
+  opacity: 1 !important;
+  background-repeat: no-repeat; }
+
+.bloodstream-67 .bloodstream-67 {
+  opacity: 1 !important;
+  background-repeat: no-repeat; }
+
+.bloodstream-68 .bloodstream-68 {
+  opacity: 1 !important;
+  background-repeat: no-repeat; }
+
+.bloodstream-69 .bloodstream-69 {
+  opacity: 1 !important;
+  background-repeat: no-repeat; }
+
+.bloodstream-70 .bloodstream-70 {
+  opacity: 1 !important;
+  background-repeat: no-repeat; }
+
+.bloodstream-71 .bloodstream-71 {
+  opacity: 1 !important;
+  background-repeat: no-repeat; }
+
+.bloodstream-72 .bloodstream-72 {
+  opacity: 1 !important;
+  background-repeat: no-repeat; }
+
+.bloodstream-1 {
+  background: url("../images/1.0_education/big_bloodstream/bloodstream-frames/bloodstream-1.png");
+  background-repeat: repeat-y; }
+
+.bloodstream-2 {
+  background: url("../images/1.0_education/big_bloodstream/bloodstream-frames/bloodstream-2.png");
+  background-repeat: repeat-y; }
+
+.bloodstream-3 {
+  background: url("../images/1.0_education/big_bloodstream/bloodstream-frames/bloodstream-3.png");
+  background-repeat: repeat-y; }
+
+.bloodstream-4 {
+  background: url("../images/1.0_education/big_bloodstream/bloodstream-frames/bloodstream-4.png");
+  background-repeat: repeat-y; }
+
+.bloodstream-5 {
+  background: url("../images/1.0_education/big_bloodstream/bloodstream-frames/bloodstream-5.png");
+  background-repeat: repeat-y; }
+
+.bloodstream-6 {
+  background: url("../images/1.0_education/big_bloodstream/bloodstream-frames/bloodstream-6.png");
+  background-repeat: repeat-y; }
+
+.bloodstream-7 {
+  background: url("../images/1.0_education/big_bloodstream/bloodstream-frames/bloodstream-7.png");
+  background-repeat: repeat-y; }
+
+.bloodstream-8 {
+  background: url("../images/1.0_education/big_bloodstream/bloodstream-frames/bloodstream-8.png");
+  background-repeat: repeat-y; }
+
+.bloodstream-9 {
+  background: url("../images/1.0_education/big_bloodstream/bloodstream-frames/bloodstream-9.png");
+  background-repeat: repeat-y; }
+
+.bloodstream-10 {
+  background: url("../images/1.0_education/big_bloodstream/bloodstream-frames/bloodstream-10.png");
+  background-repeat: repeat-y; }
+
+.bloodstream-11 {
+  background: url("../images/1.0_education/big_bloodstream/bloodstream-frames/bloodstream-11.png");
+  background-repeat: repeat-y; }
+
+.bloodstream-12 {
+  background: url("../images/1.0_education/big_bloodstream/bloodstream-frames/bloodstream-12.png");
+  background-repeat: repeat-y; }
+
+.bloodstream-13 {
+  background: url("../images/1.0_education/big_bloodstream/bloodstream-frames/bloodstream-13.png");
+  background-repeat: repeat-y; }
+
+.bloodstream-14 {
+  background: url("../images/1.0_education/big_bloodstream/bloodstream-frames/bloodstream-14.png");
+  background-repeat: repeat-y; }
+
+.bloodstream-15 {
+  background: url("../images/1.0_education/big_bloodstream/bloodstream-frames/bloodstream-15.png");
+  background-repeat: repeat-y; }
+
+.bloodstream-16 {
+  background: url("../images/1.0_education/big_bloodstream/bloodstream-frames/bloodstream-16.png");
+  background-repeat: repeat-y; }
+
+.bloodstream-17 {
+  background: url("../images/1.0_education/big_bloodstream/bloodstream-frames/bloodstream-17.png");
+  background-repeat: repeat-y; }
+
+.bloodstream-18 {
+  background: url("../images/1.0_education/big_bloodstream/bloodstream-frames/bloodstream-18.png");
+  background-repeat: repeat-y; }
+
+.bloodstream-19 {
+  background: url("../images/1.0_education/big_bloodstream/bloodstream-frames/bloodstream-19.png");
+  background-repeat: repeat-y; }
+
+.bloodstream-20 {
+  background: url("../images/1.0_education/big_bloodstream/bloodstream-frames/bloodstream-20.png");
+  background-repeat: repeat-y; }
+
+.bloodstream-21 {
+  background: url("../images/1.0_education/big_bloodstream/bloodstream-frames/bloodstream-21.png");
+  background-repeat: repeat-y; }
+
+.bloodstream-22 {
+  background: url("../images/1.0_education/big_bloodstream/bloodstream-frames/bloodstream-22.png");
+  background-repeat: repeat-y; }
+
+.bloodstream-23 {
+  background: url("../images/1.0_education/big_bloodstream/bloodstream-frames/bloodstream-23.png");
+  background-repeat: repeat-y; }
+
+.bloodstream-24 {
+  background: url("../images/1.0_education/big_bloodstream/bloodstream-frames/bloodstream-24.png");
+  background-repeat: repeat-y; }
+
+.bloodstream-25 {
+  background: url("../images/1.0_education/big_bloodstream/bloodstream-frames/bloodstream-25.png");
+  background-repeat: repeat-y; }
+
+.bloodstream-26 {
+  background: url("../images/1.0_education/big_bloodstream/bloodstream-frames/bloodstream-26.png");
+  background-repeat: repeat-y; }
+
+.bloodstream-27 {
+  background: url("../images/1.0_education/big_bloodstream/bloodstream-frames/bloodstream-27.png");
+  background-repeat: repeat-y; }
+
+.bloodstream-28 {
+  background: url("../images/1.0_education/big_bloodstream/bloodstream-frames/bloodstream-28.png");
+  background-repeat: repeat-y; }
+
+.bloodstream-29 {
+  background: url("../images/1.0_education/big_bloodstream/bloodstream-frames/bloodstream-29.png");
+  background-repeat: repeat-y; }
+
+.bloodstream-30 {
+  background: url("../images/1.0_education/big_bloodstream/bloodstream-frames/bloodstream-30.png");
+  background-repeat: repeat-y; }
+
+.bloodstream-31 {
+  background: url("../images/1.0_education/big_bloodstream/bloodstream-frames/bloodstream-31.png");
+  background-repeat: repeat-y; }
+
+.bloodstream-32 {
+  background: url("../images/1.0_education/big_bloodstream/bloodstream-frames/bloodstream-32.png");
+  background-repeat: repeat-y; }
+
+.bloodstream-33 {
+  background: url("../images/1.0_education/big_bloodstream/bloodstream-frames/bloodstream-33.png");
+  background-repeat: repeat-y; }
+
+.bloodstream-34 {
+  background: url("../images/1.0_education/big_bloodstream/bloodstream-frames/bloodstream-34.png");
+  background-repeat: repeat-y; }
+
+.bloodstream-35 {
+  background: url("../images/1.0_education/big_bloodstream/bloodstream-frames/bloodstream-35.png");
+  background-repeat: repeat-y; }
+
+.bloodstream-36 {
+  background: url("../images/1.0_education/big_bloodstream/bloodstream-frames/bloodstream-36.png");
+  background-repeat: repeat-y; }
+
+.bloodstream-37 {
+  background: url("../images/1.0_education/big_bloodstream/bloodstream-frames/bloodstream-37.png");
+  background-repeat: repeat-y; }
+
+.bloodstream-38 {
+  background: url("../images/1.0_education/big_bloodstream/bloodstream-frames/bloodstream-38.png");
+  background-repeat: repeat-y; }
+
+.bloodstream-39 {
+  background: url("../images/1.0_education/big_bloodstream/bloodstream-frames/bloodstream-39.png");
+  background-repeat: repeat-y; }
+
+.bloodstream-40 {
+  background: url("../images/1.0_education/big_bloodstream/bloodstream-frames/bloodstream-40.png");
+  background-repeat: repeat-y; }
+
+.bloodstream-41 {
+  background: url("../images/1.0_education/big_bloodstream/bloodstream-frames/bloodstream-41.png");
+  background-repeat: repeat-y; }
+
+.bloodstream-42 {
+  background: url("../images/1.0_education/big_bloodstream/bloodstream-frames/bloodstream-42.png");
+  background-repeat: repeat-y; }
+
+.bloodstream-43 {
+  background: url("../images/1.0_education/big_bloodstream/bloodstream-frames/bloodstream-43.png");
+  background-repeat: repeat-y; }
+
+.bloodstream-44 {
+  background: url("../images/1.0_education/big_bloodstream/bloodstream-frames/bloodstream-44.png");
+  background-repeat: repeat-y; }
+
+.bloodstream-45 {
+  background: url("../images/1.0_education/big_bloodstream/bloodstream-frames/bloodstream-45.png");
+  background-repeat: repeat-y; }
+
+.bloodstream-46 {
+  background: url("../images/1.0_education/big_bloodstream/bloodstream-frames/bloodstream-46.png");
+  background-repeat: repeat-y; }
+
+.bloodstream-47 {
+  background: url("../images/1.0_education/big_bloodstream/bloodstream-frames/bloodstream-47.png");
+  background-repeat: repeat-y; }
+
+.bloodstream-48 {
+  background: url("../images/1.0_education/big_bloodstream/bloodstream-frames/bloodstream-48.png");
+  background-repeat: repeat-y; }
+
+.bloodstream-49 {
+  background: url("../images/1.0_education/big_bloodstream/bloodstream-frames/bloodstream-49.png");
+  background-repeat: repeat-y; }
+
+.bloodstream-50 {
+  background: url("../images/1.0_education/big_bloodstream/bloodstream-frames/bloodstream-50.png");
+  background-repeat: repeat-y; }
+
+.bloodstream-51 {
+  background: url("../images/1.0_education/big_bloodstream/bloodstream-frames/bloodstream-51.png");
+  background-repeat: repeat-y; }
+
+.bloodstream-52 {
+  background: url("../images/1.0_education/big_bloodstream/bloodstream-frames/bloodstream-52.png");
+  background-repeat: repeat-y; }
+
+.bloodstream-53 {
+  background: url("../images/1.0_education/big_bloodstream/bloodstream-frames/bloodstream-53.png");
+  background-repeat: repeat-y; }
+
+.bloodstream-54 {
+  background: url("../images/1.0_education/big_bloodstream/bloodstream-frames/bloodstream-54.png");
+  background-repeat: repeat-y; }
+
+.bloodstream-55 {
+  background: url("../images/1.0_education/big_bloodstream/bloodstream-frames/bloodstream-55.png");
+  background-repeat: repeat-y; }
+
+.bloodstream-56 {
+  background: url("../images/1.0_education/big_bloodstream/bloodstream-frames/bloodstream-56.png");
+  background-repeat: repeat-y; }
+
+.bloodstream-57 {
+  background: url("../images/1.0_education/big_bloodstream/bloodstream-frames/bloodstream-57.png");
+  background-repeat: repeat-y; }
+
+.bloodstream-58 {
+  background: url("../images/1.0_education/big_bloodstream/bloodstream-frames/bloodstream-58.png");
+  background-repeat: repeat-y; }
+
+.bloodstream-59 {
+  background: url("../images/1.0_education/big_bloodstream/bloodstream-frames/bloodstream-59.png");
+  background-repeat: repeat-y; }
+
+.bloodstream-60 {
+  background: url("../images/1.0_education/big_bloodstream/bloodstream-frames/bloodstream-60.png");
+  background-repeat: repeat-y; }
+
+.bloodstream-61 {
+  background: url("../images/1.0_education/big_bloodstream/bloodstream-frames/bloodstream-61.png");
+  background-repeat: repeat-y; }
+
+.bloodstream-62 {
+  background: url("../images/1.0_education/big_bloodstream/bloodstream-frames/bloodstream-62.png");
+  background-repeat: repeat-y; }
+
+.bloodstream-63 {
+  background: url("../images/1.0_education/big_bloodstream/bloodstream-frames/bloodstream-63.png");
+  background-repeat: repeat-y; }
+
+.bloodstream-64 {
+  background: url("../images/1.0_education/big_bloodstream/bloodstream-frames/bloodstream-64.png");
+  background-repeat: repeat-y; }
+
+.bloodstream-65 {
+  background: url("../images/1.0_education/big_bloodstream/bloodstream-frames/bloodstream-65.png");
+  background-repeat: repeat-y; }
+
+.bloodstream-66 {
+  background: url("../images/1.0_education/big_bloodstream/bloodstream-frames/bloodstream-66.png");
+  background-repeat: repeat-y; }
+
+.bloodstream-67 {
+  background: url("../images/1.0_education/big_bloodstream/bloodstream-frames/bloodstream-67.png");
+  background-repeat: repeat-y; }
+
+.bloodstream-68 {
+  background: url("../images/1.0_education/big_bloodstream/bloodstream-frames/bloodstream-68.png");
+  background-repeat: repeat-y; }
+
+.bloodstream-69 {
+  background: url("../images/1.0_education/big_bloodstream/bloodstream-frames/bloodstream-69.png");
+  background-repeat: repeat-y; }
+
+.bloodstream-70 {
+  background: url("../images/1.0_education/big_bloodstream/bloodstream-frames/bloodstream-70.png");
+  background-repeat: repeat-y; }
+
+.bloodstream-71 {
+  background: url("../images/1.0_education/big_bloodstream/bloodstream-frames/bloodstream-71.png");
+  background-repeat: repeat-y; }
+
+.bloodstream-72 {
+  background: url("../images/1.0_education/big_bloodstream/bloodstream-frames/bloodstream-72.png");
+  background-repeat: repeat-y; }
+
+#bloodstream-gif-copy {
+  -webkit-transform: scaleY(-1);
+  -ms-transform: scaleY(-1);
+  -moz-transform: scaleY(-1);
+  transform: scaleY(-1); }
+
+/* .bloodstream .bloodstream-72 {
+  background-image: none !important;
+  width: 439px;
+  height: 668px;
+  position: relative; } */
+
+.arrows {
+  width: 251px;
+  height: 220px;
+  position: absolute;
+  top: 432px;
+  left: 76%;
+  display: none;
+  -webkit-transform: rotate(41deg);
+  -ms-transform: rotate(41deg);
+  -moz-transform: rotate(41deg);
+  transform: rotate(41deg); }
+
+.symptom-icons {
+  position: absolute;
+  width: 870px;
+  height: 480px;
+  top: 70px;
+  left: -80px; }
+
+.symptom-icon {
+  position: absolute; }
+
+.eye-icon {
+  width: 92px;
+  top: 16px;
+  left: 309px; }
+
+.nausea-icon {
+  width: 131px;
+  top: 11px;
+  left: 142px; }
+
+.lungs-icon {
+  height: 127px;
+  width: 108px;
+  top: 224px;
+  left: 121px; }
+
+.tounge-icon {
+  height: 55px;
+  width: 48px;
+  top: 159px;
+  left: 20px; }
+
+.heart-icon {
+  height: 55px;
+  width: 48px;
+  top: 159px;
+  left: 20px; }
+
+.swirl-icon {
+  height: 84px;
+  width: 139px;
+  top: 209px;
+  left: 245px; }
+
+.intestine-icon {
+  height: 127px;
+  width: 47px;
+  top: 164px;
+  left: 227px; }
+
+.mad-face-icon {
+  height: 98px;
+  width: 98px;
+  top: 348px;
+  left: 225px; }
+
+.runny-nose-icon {
+  width: 115px;
+  top: 14px;
+  left: 729px; }
+
+.hand-icon {
+  height: 57px;
+  width: 95x;
+  top: 14px;
+  left: 729px; }
+
+.sneeze-icon {
+  height: 103px;
+  width: 93px;
+  top: 94px;
+  left: 579px; }
+
+.vomit-icon {
+  width: 125px;
+  top: 94px;
+  left: 579px; }
+
+.sore_throat-icon {
+  height: 64px;
+  width: 39px;
+  top: 137px;
+  left: 806px; }
+
+.toilet-paper-icon {
+  width: 111px;
+  top: 244px;
+  left: 725px; }
+
+.hand-target-icon {
+  height: 60px;
+  width: 80px;
+  top: 344px;
+  left: 642px; }
+
+.respiratory-microscope-left {
+  width: 344px;
+  height: 234px;
+  z-index: 5;
+  top: 190px;
+  left: -412px;
+  transform-origin: right center;
+  -webkit-transform-origin-x: right;
+  -webkit-transform-origin-y: center; }
+
+.respiratory-microscope-left-caption {
+  top: 180px; }
+
+.respiratory-microscope-right-caption {
+  top: 450px;
+  left: -66px; }
+
+.respiratory-microscope-right {
+  width: 334px;
+  height: 234px;
+  z-index: 5;
+  top: 144px;
+  left: 140px;
+  transform-origin: left center;
+  -webkit-transform-origin-x: left;
+  -webkit-transform-origin-y: bottom; }
+
+#swelling-switch img {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+#swelling-switch.swelling-11 .swelling-11 {
+  opacity: 1; }
+
+#swelling-switch.swelling-12 .swelling-12 {
+  opacity: 1; }
+
+#swelling-switch.swelling-13 .swelling-13 {
+  opacity: 1; }
+
+#swelling-switch.swelling-14 .swelling-14 {
+  opacity: 1; }
+
+#swelling-switch.swelling-15 .swelling-15 {
+  opacity: 1; }
+
+#swelling-switch.swelling-16 .swelling-16 {
+  opacity: 1; }
+
+#swelling-switch.swelling-17 .swelling-17 {
+  opacity: 1; }
+
+#swelling-switch.swelling-18 .swelling-18 {
+  opacity: 1; }
+
+#swelling-switch.swelling-19 .swelling-19 {
+  opacity: 1; }
+
+#swelling-switch.swelling-20 .swelling-20 {
+  opacity: 1; }
+
+#swelling-switch.swelling-21 .swelling-21 {
+  opacity: 1; }
+
+#swelling-switch.swelling-22 .swelling-22 {
+  opacity: 1; }
+
+#swelling-switch.swelling-23 .swelling-23 {
+  opacity: 1; }
+
+#swelling-switch.swelling-24 .swelling-24 {
+  opacity: 1; }
+
+#swelling-switch.swelling-25 .swelling-25 {
+  opacity: 1; }
+
+#swelling-switch.swelling-26 .swelling-26 {
+  opacity: 1; }
+
+#swelling-switch.swelling-27 .swelling-27 {
+  opacity: 1; }
+
+#swelling-switch.swelling-28 .swelling-28 {
+  opacity: 1; }
+
+#swelling-switch.swelling-29 .swelling-29 {
+  opacity: 1; }
+
+#swelling-switch.swelling-30 .swelling-30 {
+  opacity: 1; }
+
+#swelling-switch.swelling-31 .swelling-31 {
+  opacity: 1; }
+
+#tight-switch img {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+#tight-switch.tight-11 .tight-11 {
+  opacity: 1; }
+
+#tight-switch.tight-12 .tight-12 {
+  opacity: 1; }
+
+#tight-switch.tight-13 .tight-13 {
+  opacity: 1; }
+
+#tight-switch.tight-14 .tight-14 {
+  opacity: 1; }
+
+#tight-switch.tight-15 .tight-15 {
+  opacity: 1; }
+
+#tight-switch.tight-16 .tight-16 {
+  opacity: 1; }
+
+#tight-switch.tight-17 .tight-17 {
+  opacity: 1; }
+
+#tight-switch.tight-18 .tight-18 {
+  opacity: 1; }
+
+#tight-switch.tight-19 .tight-19 {
+  opacity: 1; }
+
+#tight-switch.tight-20 .tight-20 {
+  opacity: 1; }
+
+#tight-switch.tight-21 .tight-21 {
+  opacity: 1; }
+
+#tight-switch.tight-22 .tight-22 {
+  opacity: 1; }
+
+#tight-switch.tight-23 .tight-23 {
+  opacity: 1; }
+
+#tight-switch.tight-24 .tight-24 {
+  opacity: 1; }
+
+#tight-switch.tight-25 .tight-25 {
+  opacity: 1; }
+
+#tight-switch.tight-26 .tight-26 {
+  opacity: 1; }
+
+#tight-switch.tight-27 .tight-27 {
+  opacity: 1; }
+
+#tight-switch.tight-28 .tight-28 {
+  opacity: 1; }
+
+#tight-switch.tight-29 .tight-29 {
+  opacity: 1; }
+
+#tight-switch.tight-30 .tight-30 {
+  opacity: 1; }
+
+#tight-switch.tight-31 .tight-31 {
+  opacity: 1; }
+
+#tight-switch.tight-32 .tight-32 {
+  opacity: 1; }
+
+#tight-switch.tight-33 .tight-33 {
+  opacity: 1; }
+
+#tight-switch.tight-34 .tight-34 {
+  opacity: 1; }
+
+#tight-switch.tight-35 .tight-35 {
+  opacity: 1; }
+
+#tight-switch.tight-36 .tight-36 {
+  opacity: 1; }
+
+.red-face {
+  top: 170px;
+  height: 98px;
+  width: 94px;
+  display: none; }
+
+.scene8 .red-face,
+.scene7 .red-face,
+.scene6 .red-face,
+.scene5 .red-face,
+.scene4 .red-face {
+  display: block; }
+
+.scene3 .microscope-histamine,
+.scene3 .histamines {
+  display: block; }
+
+.rash {
+  display: none;
+  position: absolute;
+  width: 230px;
+  height: 670px;
+  top: 0;
+  left: 0;
+  top: 0; }
+
+.scene1 .lady {
+  display: block; }
+
+.system {
+  position: absolute;
+  top: 260px; }
+
+.mobileSceneOneDisclaimer {
+  display: none; }
+
+.mobilegraph {
+  display: none; }
+
+#scene10-disclaimer .row div {
+  top: 20px; }
+
+@media only screen and (max-width: 767px) {
+  #social-icons {
+    display: none; }
+
+  #drop-allergen {
+    top: 482px; }
+
+  .falling-allergens .allergen {
+    display: none; }
+
+  #allergy-carousel .frame {
+    height: 110px;
+    width: 110px; }
+
+  #allergy-carousel .frame {
+    transform-origin: top center;
+    top: 0;
+    position: relative;
+    left: 0; }
+
+  .allergen {
+    height: 110px;
+    width: 110px; }
+
+  #education .scene1 .copy-container {
+    top: 0; }
+
+  #education {
+    /* This is to eliminate some of the rendering issues with things popping in and out */
+    -webkit-transform: translate3d(0, 0, 0); }
+    #education #scene1-disclaimer {
+      display: none; }
+    #education .everyscenecontainer {
+      z-index: 10; }
+    #education .digestive-symptoms-container,
+    #education .bloodstream,
+    #education .copy-container,
+    #education .heart {
+      z-index: 11; }
+    #education #scene1-copy p.mobileSceneOneDisclaimer {
+      display: block;
+      font-size: 11px; }
+    #education header h3 {
+      font-size: 20px; }
+    #education .copy .larger {
+      font-size: 20px; }
+    #education .scene14 header {
+      top: 70px; }
+    #education .scene12 h2 {
+      font-size: 32px; }
+    #education .scene11 .copy-container {
+      top: auto; }
+    #education .lady {
+      width: 145px;
+      top: 550px; }
+      #education .lady.raised {
+        -webkit-transform: translateY(-270px);
+        -ms-transform: translateY(-270px);
+        -moz-transform: translateY(-270px);
+        transform: translateY(-270px); }
+    #education .clock_copy_mobile_swap {
+      opacity: 0 !important; }
+    #education .lady.half-raised {
+      /* animate */
+      -webkit-transform: translateY(-160px);
+      -ms-transform: translateY(-160px);
+      -moz-transform: translateY(-160px);
+      transform: translateY(-160px); }
+    #education .lady.last-raised {
+      /* animate */
+      -webkit-transform: translateY(-210px);
+      -ms-transform: translateY(-210px);
+      -moz-transform: translateY(-210px);
+      transform: translateY(-210px); }
+    #education #girl_histamine_loop {
+      top: -12px;
+      left: -22px; }
+    #education #girl_digestive, #education #girl_respiratory, #education #girl_cardio, #education #girl_cardio_loop, #education #girl_skin, #education #girl_histamine {
+      top: -12px;
+      left: -22px; }
+    #education #girl_clothing_sick {
+      top: -4px;
+      left: -1px; }
+    #education .scene .copy.large {
+      font-size: 25px; }
+    #education .copy.larger {
+      font-size: 20px; }
+    #education .everyscenecontainer,
+    #education .scene {
+      height: 100%; }
+    #education .everyscenecontainer p,
+    #education .scene p {
+      font-size: 14px; }
+    #education #scene1-copy {
+      top: 95px; }
+      #education #scene1-copy p {
+        font-size: 15px; }
+    #education #scene3_copy {
+      top: 130px; }
+    #education #scene10-disclaimer {
+      top: -280px;
+      position: absolute; }
+      #education #scene10-disclaimer .disclaimer {
+        text-align: center;
+        margin: 0 auto;
+        width: 92%; }
+    #education .furniture {
+      background-size: 160%;
+      background-position: center 100%;
+      margin-bottom: 40px; }
+    #education .push-down-under-arrow {
+      height: 100%;
+      padding-top: 0; }
+    #education .scene2 .copy-container {
+      top: 75px; }
+    #education .microscope-histamine {
+      width: 153px;
+      position: absolute;
+      top: 100px;
+      left: 70px; }
+    #education .circle_graph {
+      width: 140px;
+      top: 115px;
+      left: 160px;
+      z-index: 1; }
+    #education #chart-copy {
+      top: -58px;
+      position: absolute; }
+    #education #scene4-header {
+      top: 90px; }
+    #education #rash-copy {
+      margin-top: 120px;
+      width: 35%;
+      position: static; }
+    #education #scene5-header {
+      top: 70px; }
+    #education #scene5-copy {
+      top: 69px; }
+    #education .scene10 .copy-container {
+      top: 100px; }
+    #education .scene9 .copy-container {
+      top: 80px; }
+    #education .clock {
+      top: 0;
+      width: 230px;
+      height: 230px; }
+    #education .clock-copy {
+      top: 390px;
+      z-index: 5;
+      width: 93%;
+      text-align: center; }
+    #education .clock-container {
+      width: 230px;
+      height: 230px;
+      top: 210px; }
+    #education .clock-right-copy {
+      color: #000 !important; }
+      #education .clock-right-copy b {
+        color: red !important; }
+    #education .clock-right-copy,
+    #education .clock-left-copy {
+      width: 100%;
+      top: 60px;
+      left: 0;
+      text-align: center;
+      margin: 0 auto;
+      padding-left: 5%;
+      padding-right: 5%;
+      font-size: 16px !important; }
+    #education .clock-left-copy {
+      color: #000 !important; }
+      #education .clock-left-copy .red_bold {
+        color: red; }
+    #education .bottom-bar {
+      height: 40px;
+      background-image: none; }
+    #education .digestive-symptoms-container {
+      top: 23%;
+      z-index: 11; }
+      #education .digestive-symptoms-container .image-container {
+        height: 10em;
+        position: relative; }
+        #education .digestive-symptoms-container .image-container .digestive-symtpoms-copy {
+          bottom: 5%;
+          top: auto;
+          font-size: 11px; }
+        #education .digestive-symptoms-container .image-container img {
+          position: absolute;
+          bottom: 0;
+          top: auto; }
+        #education .digestive-symptoms-container .image-container.nausea {
+          top: auto; }
+        #education .digestive-symptoms-container .image-container.vomit {
+          top: auto; }
+        #education .digestive-symptoms-container .image-container.dia {
+          top: auto; }
+    #education #scene_13_header_copy {
+      top: 50px; }
+      #education #scene_13_header_copy h3 {
+        font-size: 17px;
+        width: 280px;
+        margin: 14% auto; }
+    #education .figure-row {
+      top: 92%; }
+      #education .figure-row .figure-container {
+        width: 33%;
+        float: left; }
+      #education .figure-row .images-with-caption {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        -moz-align-items: center;
+        align-items: center;
+        margin-bottom: 20px; }
+      #education .figure-row .caption {
+        text-align: left;
+        font-weight: 900;
+        margin-top: 0;
+        margin-left: 10px; }
+      #education .figure-row .image3 .figure-container {
+        margin: 0; }
+    #education #cardiovascular-symptoms-copy-1 {
+      position: absolute;
+      top: 65px;
+      left: 13px; }
+    #education #cardiovascular-symptoms-copy-2 {
+      position: absolute;
+      top: 68px;
+      left: 25px; }
+    #education #cardiovascular-symptoms-header {
+      top: 68px;
+      left: 0; }
+    #education #respiratory-header {
+      top: 75px; }
+    #education .respiratory-microscope-left-caption {
+      top: 280px; }
+    #education .respiratory-microscope-right-caption {
+      top: 280px;
+      left: 0; }
+    #education .scene8 .copy-container {
+      top: -193px; }
+    #education .bloodstream {
+      margin-left: 0;
+      height: 100%;
+      width: 50px;
+      background: url("../images/1.0_education/big_bloodstream/bloodstream-frames/bloodstream-72.png");
+      background-size: cover;
+      background-position-x: -316px; }
+    #education .arrows {
+      width: 131px;
+      height: auto;
+      position: absolute;
+      top: 330px;
+      left: -170px; }
+    #education #bloodstream-label {
+      position: absolute;
+      top: 275px;
+      width: 110px;
+      left: -10px;
+      z-index: 3; }
+    #education .bloodstream-vessel {
+      width: 50px;
+      position: absolute;
+      left: 0;
+      top: 4px; }
+    #education #bloodstream-frames {
+      display: none; }
+    #education .bloodstream-cells {
+      background-image: none;
+      width: auto;
+      overflow: hidden; }
+      #education .bloodstream-cells img {
+        left: -360px;
+        width: auto; }
+    #education .heart {
+      width: 190px;
+      height: auto;
+      left: -272px; }
+    #education .respiratory-microscope-left {
+      width: 144px;
+      top: 90px;
+      left: -180px; }
+    #education .respiratory-microscope-right {
+      width: 144px;
+      top: 70px;
+      left: 70px; }
+    #education .symptom-icons {
+      width: 100%;
+      height: 480px;
+      top: 200px;
+      left: 0; }
+    #education .eye-icon {
+      width: 65px;
+      top: 62px;
+      left: 80px; }
+    #education .nausea-icon {
+      width: 131px;
+      top: 11px;
+      left: 142px; }
+    #education .mad-face-icon {
+      width: 65px;
+      top: 240px;
+      left: 26px; }
+    #education .runny-nose-icon {
+      width: 65px;
+      top: 70px;
+      left: 320px; }
+    #education .sore_throat-icon {
+      width: 70px;
+      top: 50px;
+      left: 0; }
+    #education .lungs-icon {
+      width: 70px;
+      top: 165px;
+      left: -25px; }
+    #education .swirl-icon {
+      height: 84px;
+      width: 110px;
+      top: 160px;
+      left: 35px; }
+    #education .vomit-icon {
+      height: 84px;
+      width: 90px;
+      top: 109px;
+      left: 227px;
+      -webkit-transform: scaleX(-1);
+      -ms-transform: scaleX(-1);
+      -moz-transform: scaleX(-1);
+      transform: scaleX(-1); }
+    #education .sore_throat-icon {
+      width: 70px;
+      top: 50px;
+      left: 0px; }
+    #education .toilet-paper-icon {
+      width: 77px;
+      top: 189px;
+      right: -40px;
+      left: auto; }
+    #education .hand-target-icon {
+      width: 47px;
+      height: auto;
+      right: 40px;
+      left: auto;
+      top: 269px; }
+    #education .nausea-icon, #education .tounge-icon {
+      display: none; }
+    #education .scene15,
+    #education .scene11,
+    #education .scene12 {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      -moz-align-items: center;
+      align-items: center; }
+    #education .red-white-background {
+      background: url("../images/2.0_treatment/mobile_bright_red.png");
+      background-position: 24% 0;
+      background-repeat: no-repeat; }
+      #education .red-white-background.retracted {
+        opacity: 0;
+        background-position: -2% 0; }
+      #education .red-white-background.half-retracted {
+        background-position: 9% 0; }
+    #education .scene15 .copy-container,
+    #education .scene12 .copy-container {
+      top: initial; }
+      #education .scene15 .copy-container h2, #education .scene15 .copy-container h3,
+      #education .scene12 .copy-container h2,
+      #education .scene12 .copy-container h3 {
+        margin: 0; }
+    #education #countdown-copy {
+      height: 100%;
+      width: 70%;
+      top: 0;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      -moz-align-items: center;
+      align-items: center; }
+    #education .red-background {
+      background: url("../images/2.0_treatment/mobile_dark_red.png");
+      background-position: 99% 0;
+      background-repeat: no-repeat; }
+      #education .red-background.retracted {
+        opacity: 0;
+        background-position: 119% 0; }
+      #education .red-background.half-retracted {
+        background-position: 109% 0; }
+    #education .treatment-background-left {
+      background: url("../images/2.0_treatment/mobile_white_divder_left.png");
+      background-repeat: no-repeat;
+      background-position: 98% 0; }
+      #education .treatment-background-left.retracted {
+        background-position: 120% 0; }
+    #education .treatment-background-right {
+      background: url("../images/2.0_treatment/mobile_white_divder_right.png");
+      background-position: 23% 0; }
+      #education .treatment-background-right.retracted {
+        background-position: -1% 0; } }
+/* Small Devices, Tablets */
+@media only screen and (max-width: 767px) {
+  body {
+    background-color: #0b343e; }
+
+  .navbar {
+    min-height: 60px; }
+    .navbar .social-icon-tray {
+      display: block; }
+
+  .fixed-mobile {
+    position: fixed !important; }
+
+  #mainNav-container .navbar-header {
+    background: rgba(213, 213, 208, 0.95); }
+  #mainNav-container.on-my-risk:not(.on-risk-results) .navbar-header {
+    background: linear-gradient(250deg, transparent 0, transparent 191px, rgba(213, 213, 208, 0.95) 191px, rgba(213, 213, 208, 0.95) 100%); }
+  #mainNav-container button {
+    height: 51px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #173555; }
+    #mainNav-container button span.icon {
+      visibility: hidden;
+      display: inline-block;
+      width: 15px;
+      margin-right: 5px; }
+  #mainNav-container.dark button, #mainNav-container.navbar-default.on-my-risk.on-risk-results button {
+    color: #173555; }
+  #mainNav-container.open button {
+    color: #e18e2f;
+    font-weight: 900; }
+    #mainNav-container.open button span.icon {
+      visibility: visible; }
+  #mainNav-container.open #mainNav {
+    background-color: rgba(245, 245, 245, 0.95);
+    max-height: 100%; }
+    #mainNav-container.open #mainNav .social-icon {
+      width: 30px;
+      margin: 10px 35px 10px 0;
+      float: left; }
+    #mainNav-container.open #mainNav .dark-icon, #mainNav-container.open #mainNav .light-icon {
+      display: none; }
+    #mainNav-container.open #mainNav .mobile-icon {
+      display: initial; }
+    #mainNav-container.open #mainNav #home-anchor {
+      -webkit-transform: translateY(0);
+      -ms-transform: translateY(0);
+      -moz-transform: translateY(0);
+      transform: translateY(0); }
+    #mainNav-container.open #mainNav #info-anchor .icon {
+      margin-left: -30px; }
+    #mainNav-container.open #mainNav #info-anchor a:hover .icon .mobile-icon {
+      display: none; }
+    #mainNav-container.open #mainNav ul {
+      padding: 5%;
+      padding-top: 0;
+      padding-bottom: 0; }
+    #mainNav-container.open #mainNav li {
+      height: 50px;
+      border-bottom: 1px solid #153455;
+      display: flex;
+      align-items: center; }
+      #mainNav-container.open #mainNav li a {
+        color: #153455;
+        padding-left: 5px;
+        font-size: 20px; }
+
+  #mainNav-container button {
+    float: left;
+    margin-left: 10px;
+    border: none; }
+
+  #mainNav-container .navbar-toggle:focus, #mainNav-container .navbar-toggle:hover {
+    background-color: transparent; }
+
+  #hero h1 {
+    font-size: 2.0em; }
+
+  #treatment, #education {
+    height: 100vh; }
+
+  #whats-my-risk {
+    top: -10px;
+    width: 213px; }
+
+  #hero {
+    padding-top: 75px; }
+
+  #hero .sub-head {
+    margin-bottom: 15px; }
+
+  #hero p {
+    font-size: 16px; }
+
+  #home {
+    background: url("../images/0.0_home_global/0.0_Mobile_Home_Background.png");
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    min-height: initial;
+    min-height: 545px;
+    background-position: center; }
+
+  #allergy-carousel {
+    margin-top: 25px; }
+
+  .scroll-button-container {
+    padding-top: 0; }
+
+  /* Education */
+  /*  //footer
+    .footer{
+      .footer-mylan-logo{
+        margin-left:-30px;
+      }
+    }*/ }
+/* End Media Query */
+#myrisk {
+  position: relative;
+  position: relative;
+  margin-bottom: -295px;
+  top: -295px;
+  /* Scene 5: dartboard */
+  /* results */ }
+  #myrisk .scene {
+    height: 100vh;
+    background-position: 0 0;
+    background-color: transparent;
+    background-size: auto 100%;
+    background-repeat: repeat-x; }
+    #myrisk .scene .container.scene-container {
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      -moz-transform: translateY(-50%);
+      transform: translateY(-50%);
+      max-height: 100vh; }
+  #myrisk header {
+    top: 0;
+    font-size: 37px;
+    padding-top: 0; }
+  #myrisk header h3 {
+    font-size: 37px;
+    margin-bottom: 35px;
+    line-height: 150%; }
+  #myrisk .scene1 {
+    background-image: url("../images/3.0_risk_assessment/background-ra.png"); }
+    #myrisk .scene1 header {
+      padding-top: 130px; }
+    #myrisk .scene1 .swap {
+      background-color: #ffaf4c;
+      /* orange fill */
+      padding: 3px 11px;
+      box-shadow: 5px 5px 0px #e58611;
+      /* orange dark */
+      cursor: pointer;
+      margin: 0 5px 5px 0;
+      color: #fae0c8;
+      /* orange light */
+      text-transform: uppercase;
+      transition: all 250ms; }
+      #myrisk .scene1 .swap:hover {
+        color: #fff; }
+      #myrisk .scene1 .swap.selected {
+        color: #e58611;
+        background: #fff; }
+    #myrisk .scene1 .copy.fine {
+      font-size: 0.45em;
+      margin-top: 10px; }
+  #myrisk .scene2 {
+    background-image: url("../images/risk-light-green-background.png"); }
+  #myrisk .scene3 {
+    background-image: url("../images/dark-green.png"); }
+  #myrisk .scene4 {
+    background-image: url("../images/grey-background.png");
+    padding-top: 60px; }
+  #myrisk .scene5 {
+    background-image: url("../images/3.0_risk_assessment/05_allergy_plan/dart_board_background.png"); }
+  #myrisk .scene6, #myrisk .scene7 {
+    background-image: url("../images/light-green-background.png"); }
+  #myrisk .scroll-down {
+    cursor: pointer;
+    margin-top: 40px; }
+  #myrisk .chart-col {
+    bottom: auto; }
+  #myrisk .chart {
+    width: 100%;
+    height: 951px;
+    top: 95px;
+    bottom: auto;
+    background: #602823;
+    margin-top: 48px;
+    border-radius: 30px; }
+    #myrisk .chart .chart-clip {
+      position: absolute;
+      bottom: auto;
+      top: -48px;
+      background: url("../images/3.0_risk_assessment/03_conditions/RxPad_Clip.png") 50% 0;
+      background-size: cover;
+      width: 300px;
+      height: 100px;
+      z-index: 2; }
+    #myrisk .chart .chart-page {
+      height: 100%;
+      bottom: auto;
+      top: 34px;
+      background: #fff;
+      color: #000;
+      box-shadow: 7px -7px 0 #E6E6E7;
+      padding: 20px;
+      z-index: 1; }
+      #myrisk .chart .chart-page .chart-top {
+        border-bottom: #eaeaea 1px solid;
+        margin: 0px 6px;
+        min-height: 20vh; }
+        #myrisk .chart .chart-page .chart-top .chart-top-img img {
+          max-width: 60%;
+          margin-bottom: 15px; }
+    #myrisk .chart .chart-body .chart-item {
+      min-height: 12vh;
+      padding: 0; }
+      #myrisk .chart .chart-body .chart-item label {
+        position: absolute;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        transform: translateY(-50%);
+        cursor: pointer; }
+      #myrisk .chart .chart-body .chart-item input[type=checkbox], #myrisk .chart .chart-body .chart-item #signup .selectric-wrapper [type=checkbox].selectric, #signup .selectric-wrapper #myrisk .chart .chart-body .chart-item [type=checkbox].selectric {
+        display: none; }
+      #myrisk .chart .chart-body .chart-item .box {
+        display: block;
+        position: absolute;
+        top: 50%;
+        width: 27px;
+        height: 27px;
+        border: #ccc 3px solid;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        transform: translateY(-50%); }
+      #myrisk .chart .chart-body .chart-item .label-text {
+        display: block;
+        margin: 0 10px 0 50px;
+        font-size: 1.5em;
+        font-weight: 400; }
+      #myrisk .chart .chart-body .chart-item .check-mark {
+        position: absolute;
+        left: 0;
+        bottom: 2px;
+        width: 30px;
+        height: 30px;
+        background: transparent url("../images/3.0_risk_assessment/03_conditions/Rx_Pad_Check.png") 0 0;
+        background-size: cover;
+        -webkit-transform: scale(0);
+        -ms-transform: scale(0);
+        -moz-transform: scale(0);
+        transform: scale(0);
+        transform-origin: 0 100%;
+        transition: all 150ms; }
+      #myrisk .chart .chart-body .chart-item .check-mark.selected {
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        -moz-transform: scale(1);
+        transform: scale(1); }
+  #myrisk .ra-copy {
+    position: relative; }
+  #myrisk .ra-wheel-container {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0; }
+    #myrisk .ra-wheel-container .thewheel {
+      position: absolute;
+      top: 53%;
+      -webkit-transform: translateY(-47%);
+      -ms-transform: translateY(-47%);
+      -moz-transform: translateY(-47%);
+      transform: translateY(-47%); }
+  #myrisk .ra-wheel {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 50%; }
+    #myrisk .ra-wheel .thewheel,
+    #myrisk .ra-wheel #ra-wheel-image,
+    #myrisk .ra-wheel #ra-wheel-click-listener {
+      width: 90vh;
+      height: 90vh;
+      max-width: 658px;
+      max-height: 658px; }
+    #myrisk .ra-wheel .thewheel .inner-wheel {
+      position: relative; }
+    #myrisk .ra-wheel .copy {
+      top: 50%;
+      width: 35%;
+      max-width: 35%;
+      bottom: auto;
+      padding: 10px;
+      transform: translateY(-50%);
+      vertical-align: middle;
+      text-align: center;
+      font-size: 110%; }
+    #myrisk .ra-wheel #ra-wheel-click-listener {
+      position: absolute;
+      background-color: rgba(0, 0, 0, 0.01); }
+  #myrisk .tracker.carousel-indicators {
+    background-image: url("../images/3.0_risk_assessment/08_tracker/r_RA_Nav_Container.png");
+    position: absolute;
+    right: 0;
+    width: 278px;
+    height: 59px;
+    margin-top: 74px;
+    z-index: 1;
+    top: auto;
+    bottom: auto;
+    left: auto;
+    opacity: 1;
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    transform: translateZ(0);
+    transition: opacity 250ms; }
+    #myrisk .tracker.carousel-indicators[data-current="5"], #myrisk .tracker.carousel-indicators[data-current="6"] {
+      opacity: 0;
+      pointer-events: none; }
+    #myrisk .tracker.carousel-indicators::before {
+      content: '';
+      float: left;
+      height: 59px;
+      width: 36px; }
+    #myrisk .tracker.carousel-indicators .step {
+      position: relative;
+      width: 16px;
+      height: 16px;
+      background-color: #173A5F;
+      /* deep blue */
+      border-radius: 50%;
+      border: #173A5F 3px solid;
+      float: left;
+      margin-top: 20px;
+      margin-left: 10px;
+      transition: all 250ms; }
+    #myrisk .tracker.carousel-indicators .step.active {
+      background-color: #FFB56C;
+      /* orange fill */
+      -webkit-transform: translateY(-11px);
+      -ms-transform: translateY(-11px);
+      -moz-transform: translateY(-11px);
+      transform: translateY(-11px); }
+    #myrisk .tracker.carousel-indicators .step::after {
+      content: "";
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      left: 50%;
+      width: 16px;
+      height: 16px;
+      z-index: 0;
+      background-color: #B2B2B2;
+      border-radius: 50%;
+      -webkit-transform: translateY(0) translateX(-50%) scale(1, 0.3);
+      -ms-transform: translateY(0) translateX(-50%) scale(1, 0.3);
+      -moz-transform: translateY(0) translateX(-50%) scale(1, 0.3);
+      transform: translateY(0) translateX(-50%) scale(1, 0.3);
+      transition: all 250ms; }
+    #myrisk .tracker.carousel-indicators .step.active::after {
+      opacity: 1;
+      -webkit-transform: translateY(14px) translateX(-50%) scale(1, 0.3);
+      -ms-transform: translateY(14px) translateX(-50%) scale(1, 0.3);
+      -moz-transform: translateY(14px) translateX(-50%) scale(1, 0.3);
+      transform: translateY(14px) translateX(-50%) scale(1, 0.3); }
+  #myrisk .myrisk-carousel-control {
+    position: absolute;
+    top: calc(53% - 36px);
+    display: block;
+    width: 220px;
+    height: 72px;
+    z-index: 2;
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    background-position: 0 0;
+    background-size: 100% 200%;
+    cursor: pointer;
+    transition: background-image 250ms, width 250ms, opacity 250ms; }
+    #myrisk .myrisk-carousel-control.fixed {
+      position: fixed; }
+    #myrisk .myrisk-carousel-control:hover {
+      background-position: 50% 100%; }
+    #myrisk .myrisk-carousel-control.disabled {
+      pointer-events: none;
+      background-position: 0 100%;
+      opacity: 0.5 !important;
+      cursor: default; }
+    #myrisk .myrisk-carousel-control#myrisk-prev {
+      left: 0; }
+      #myrisk .myrisk-carousel-control#myrisk-prev[data-current='0'] {
+        opacity: 0 !important;
+        cursor: default;
+        pointer-events: none; }
+      #myrisk .myrisk-carousel-control#myrisk-prev[data-current='1'] {
+        background-image: url("../images/3.0_risk_assessment/07_global_buttons/Back_Step1.png"); }
+      #myrisk .myrisk-carousel-control#myrisk-prev[data-current='2'] {
+        background-image: url("../images/3.0_risk_assessment/07_global_buttons/Back_Step2.png"); }
+      #myrisk .myrisk-carousel-control#myrisk-prev[data-current='3'] {
+        background-image: url("../images/3.0_risk_assessment/07_global_buttons/Back_Step3.png"); }
+      #myrisk .myrisk-carousel-control#myrisk-prev[data-current='4'] {
+        background-image: url("../images/3.0_risk_assessment/07_global_buttons/Back_Step4.png"); }
+      #myrisk .myrisk-carousel-control#myrisk-prev[data-current='5'] {
+        width: 171px;
+        background-image: url("../images/3.0_risk_assessment/07_global_buttons/Back_BTN.png"); }
+      #myrisk .myrisk-carousel-control#myrisk-prev[data-current='6'] {
+        background-image: url("../images/3.0_risk_assessment/07_global_buttons/back_to_results_desktop.png"); }
+    #myrisk .myrisk-carousel-control#myrisk-next {
+      right: 0; }
+      #myrisk .myrisk-carousel-control#myrisk-next[data-current='0'] {
+        background-image: url("../images/3.0_risk_assessment/07_global_buttons/Go_Step2.png"); }
+      #myrisk .myrisk-carousel-control#myrisk-next[data-current='1'] {
+        background-image: url("../images/3.0_risk_assessment/07_global_buttons/Go_Step3.png"); }
+      #myrisk .myrisk-carousel-control#myrisk-next[data-current='2'] {
+        background-image: url("../images/3.0_risk_assessment/07_global_buttons/Go_Step4.png"); }
+      #myrisk .myrisk-carousel-control#myrisk-next[data-current='3'] {
+        background-image: url("../images/3.0_risk_assessment/07_global_buttons/Go_Step5.png"); }
+      #myrisk .myrisk-carousel-control#myrisk-next[data-current='4'] {
+        background-image: url("../images/3.0_risk_assessment/07_global_buttons/RA_SeeResults_BTN.png"); }
+      #myrisk .myrisk-carousel-control#myrisk-next[data-current='5'] {
+        opacity: 0 !important;
+        cursor: default;
+        pointer-events: none; }
+  #myrisk .scene2 .scene-header {
+    margin: 50px 0 40px; }
+  #myrisk .symptoms-choice-container {
+    position: relative;
+    margin: 0 auto;
+    padding: 0 20%; }
+    #myrisk .symptoms-choice-container .symptoms {
+      height: 131px;
+      overflow: hidden;
+      margin-bottom: 20px;
+      cursor: pointer; }
+      #myrisk .symptoms-choice-container .symptoms img {
+        transition-duration: .25s;
+        -webkit-transition-duration: .25s;
+        height: 200%;
+        margin: 0 auto; }
+      #myrisk .symptoms-choice-container .symptoms.deselected img {
+        -webkit-transform: translateY(0) !important;
+        -ms-transform: translateY(0) !important;
+        -moz-transform: translateY(0) !important;
+        transform: translateY(0) !important; }
+      #myrisk .symptoms-choice-container .symptoms.hover img, #myrisk .symptoms-choice-container .symptoms.selected img {
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        transform: translateY(-50%); }
+  #myrisk .age-selctor-container {
+    display: inline-block; }
+    #myrisk .age-selctor-container .girl {
+      overflow: hidden;
+      bottom: 170px;
+      display: inline-block;
+      cursor: pointer;
+      padding: 0;
+      width: 15%;
+      margin: 0 4%;
+      padding: 0; }
+      #myrisk .age-selctor-container .girl table {
+        height: 100%; }
+      #myrisk .age-selctor-container .girl img {
+        position: relative;
+        left: -100%;
+        width: 200%; }
+      #myrisk .age-selctor-container .girl#girl-young {
+        width: 10%; }
+      #myrisk .age-selctor-container .girl.hover img, #myrisk .age-selctor-container .girl.selected img {
+        left: 0; }
+    #myrisk .age-selctor-container .slider-bar {
+      width: 100%;
+      height: 41px;
+      margin: 15px auto;
+      position: relative; }
+    #myrisk .age-selctor-container .slider-bar .slider-track {
+      position: relative;
+      left: -10px;
+      top: 15px;
+      width: calc(100% + 10px);
+      height: 11px;
+      background-color: #fff;
+      border-radius: 5px;
+      padding-left: 10px; }
+    #myrisk .age-selctor-container .slider-bar .slider-indicator {
+      position: relative;
+      display: block;
+      /* set default position */
+      left: 25%;
+      top: -15px;
+      width: 180px;
+      height: 41px;
+      background-color: #3fbcb2;
+      /* teal */
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: 50% 50%;
+      color: #fff;
+      text-align: center;
+      cursor: pointer; }
+    #myrisk .age-selctor-container .slider-bar .slider-indicator::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -5px;
+      width: 5px;
+      height: 100%;
+      background: url("../images/3.0_risk_assessment/04_age/tracker_indicator.png");
+      background-size: cover; }
+    #myrisk .age-selctor-container .slider-bar .slider-indicator[data-value='0'] {
+      background-image: url("../images/3.0_risk_assessment/04_age/TrackerText0.png"); }
+    #myrisk .age-selctor-container .slider-bar .slider-indicator[data-value='1'] {
+      background-image: url("../images/3.0_risk_assessment/04_age/TrackerText1.png"); }
+    #myrisk .age-selctor-container .slider-bar .slider-indicator[data-value='2'] {
+      background-image: url("../images/3.0_risk_assessment/04_age/TrackerText2.png"); }
+    #myrisk .age-selctor-container .slider-bar .slider-indicator[data-value='3'] {
+      background-image: url("../images/3.0_risk_assessment/04_age/TrackerText3.png"); }
+  #myrisk .scene5 header {
+    padding: 60px 0 25px;
+    width: auto;
+    margin: auto; }
+  #myrisk .scene5 header .copy {
+    font-size: .6em;
+    line-height: 150%;
+    font-weight: 300; }
+  #myrisk .scene5 #dartboard {
+    width: 60vh; }
+    #myrisk .scene5 #dartboard .dart {
+      width: 17.5vh; }
+    #myrisk .scene5 #dartboard .dart-shadow {
+      width: 17.5vh; }
+    #myrisk .scene5 #dartboard .outer-dot {
+      left: calc(50% - 3vh);
+      top: calc(50% - 3vh);
+      width: 6vh;
+      height: 6vh; }
+      #myrisk .scene5 #dartboard .outer-dot .dot-label {
+        width: 15vh; }
+      #myrisk .scene5 #dartboard .outer-dot.dot1 {
+        -webkit-transform: rotate(306deg) translate(30vh) translate(5px) rotate(-306deg);
+        -ms-transform: rotate(306deg) translate(30vh) translate(5px) rotate(-306deg);
+        -moz-transform: rotate(306deg) translate(30vh) translate(5px) rotate(-306deg);
+        transform: rotate(306deg) translate(30vh) translate(5px) rotate(-306deg); }
+      #myrisk .scene5 #dartboard .outer-dot.dot2 {
+        -webkit-transform: rotate(378deg) translate(30vh) translate(5px) rotate(-378deg);
+        -ms-transform: rotate(378deg) translate(30vh) translate(5px) rotate(-378deg);
+        -moz-transform: rotate(378deg) translate(30vh) translate(5px) rotate(-378deg);
+        transform: rotate(378deg) translate(30vh) translate(5px) rotate(-378deg); }
+      #myrisk .scene5 #dartboard .outer-dot.dot3 {
+        -webkit-transform: rotate(90deg) translate(30vh) translate(5px) rotate(-90deg);
+        -ms-transform: rotate(90deg) translate(30vh) translate(5px) rotate(-90deg);
+        -moz-transform: rotate(90deg) translate(30vh) translate(5px) rotate(-90deg);
+        transform: rotate(90deg) translate(30vh) translate(5px) rotate(-90deg); }
+      #myrisk .scene5 #dartboard .outer-dot.dot4 {
+        -webkit-transform: rotate(162deg) translate(30vh) translate(5px) rotate(-162deg);
+        -ms-transform: rotate(162deg) translate(30vh) translate(5px) rotate(-162deg);
+        -moz-transform: rotate(162deg) translate(30vh) translate(5px) rotate(-162deg);
+        transform: rotate(162deg) translate(30vh) translate(5px) rotate(-162deg); }
+      #myrisk .scene5 #dartboard .outer-dot.dot5 {
+        -webkit-transform: rotate(234deg) translate(30vh) translate(5px) rotate(-234deg);
+        -ms-transform: rotate(234deg) translate(30vh) translate(5px) rotate(-234deg);
+        -moz-transform: rotate(234deg) translate(30vh) translate(5px) rotate(-234deg);
+        transform: rotate(234deg) translate(30vh) translate(5px) rotate(-234deg); }
+      #myrisk .scene5 #dartboard .outer-dot .dot-label.label-bottom {
+        width: 60vh; }
+  #myrisk .scene5 #dartboard {
+    height: auto;
+    display: inline-block;
+    position: relative;
+    margin-bottom: 100px; }
+    #myrisk .scene5 #dartboard .dart {
+      position: absolute;
+      left: 90%;
+      bottom: 50%;
+      z-index: 4; }
+    #myrisk .scene5 #dartboard .dart-shadow {
+      position: absolute;
+      left: 90%;
+      top: 50%;
+      z-index: 1;
+      opacity: 0.75; }
+    #myrisk .scene5 #dartboard .dart[data-score='0'], #myrisk .scene5 #dartboard .dart-shadow[data-score='0'] {
+      left: 110%; }
+    #myrisk .scene5 #dartboard .dart[data-score='1'], #myrisk .scene5 #dartboard .dart-shadow[data-score='1'] {
+      left: 80%; }
+    #myrisk .scene5 #dartboard .dart[data-score='2'], #myrisk .scene5 #dartboard .dart-shadow[data-score='2'] {
+      left: 70%; }
+    #myrisk .scene5 #dartboard .dart[data-score='3'], #myrisk .scene5 #dartboard .dart-shadow[data-score='3'] {
+      left: 60%; }
+    #myrisk .scene5 #dartboard .dart[data-score='4'], #myrisk .scene5 #dartboard .dart-shadow[data-score='4'] {
+      left: 50%; }
+    #myrisk .scene5 #dartboard .dart-shadow-container {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      overflow: hidden; }
+    #myrisk .scene5 #dartboard .outer-dot {
+      position: absolute;
+      z-index: 4;
+      border-radius: 50%;
+      background: #e1e1e1;
+      border: #fdfdfd 4px solid;
+      transition: all 250ms;
+      cursor: pointer; }
+      #myrisk .scene5 #dartboard .outer-dot .dot-label {
+        position: absolute;
+        min-width: 150px;
+        overflow: visible;
+        font-size: 1.5em;
+        font-weight: 300;
+        text-transform: uppercase;
+        opacity: 0.4;
+        transition: all 250ms;
+        cursor: pointer;
+        -webkit-transform: translateZ(0);
+        -ms-transform: translateZ(0);
+        -moz-transform: translateZ(0);
+        transform: translateZ(0); }
+      #myrisk .scene5 #dartboard .outer-dot.selected {
+        background-color: #faa548; }
+      #myrisk .scene5 #dartboard .outer-dot:hover .dot-label, #myrisk .scene5 #dartboard .outer-dot.selected .dot-label {
+        opacity: 1; }
+      #myrisk .scene5 #dartboard .outer-dot.selected .dot-label {
+        font-weight: 600; }
+      #myrisk .scene5 #dartboard .outer-dot .dot-label.label-right {
+        left: 100%;
+        top: 0.5em;
+        text-align: left;
+        padding-left: 20px; }
+      #myrisk .scene5 #dartboard .outer-dot .dot-label.label-bottom {
+        left: 0;
+        top: 100%;
+        text-align: left;
+        padding-top: 15px; }
+      #myrisk .scene5 #dartboard .outer-dot .dot-label.label-left {
+        right: 100%;
+        top: 0.5em;
+        text-align: right;
+        padding-right: 20px; }
+  #myrisk .scene-results {
+    color: #000;
+    height: auto;
+    padding-top: 55px; }
+    #myrisk .scene-results h2 {
+      color: #f0a53a; }
+    #myrisk .scene-results label.error {
+      left: 0;
+      top: 100%; }
+    #myrisk .scene-results .results-collection {
+      background: #173A5F;
+      color: #fff;
+      padding: 20px; }
+      #myrisk .scene-results .results-collection .spacer {
+        height: 30px; }
+      #myrisk .scene-results .results-collection .email-label h4 {
+        font-size: 1.3em;
+        margin: 0 0 10px; }
+      #myrisk .scene-results .results-collection .download-col h5 {
+        font-size: 1.2em;
+        margin: 0; }
+      #myrisk .scene-results .results-collection .email-submit,
+      #myrisk .scene-results .results-collection .download-button {
+        font-size: 1.2em;
+        height: 41px;
+        color: #fff;
+        width: 100%; }
+        #myrisk .scene-results .results-collection .email-submit .icon,
+        #myrisk .scene-results .results-collection .download-button .icon {
+          display: inline-block;
+          width: 1.2em;
+          height: 1.2em;
+          margin-left: 7px;
+          background-repeat: no-repeat;
+          background-size: contain;
+          background-position: 50% 50%;
+          vertical-align: -15%; }
+          #myrisk .scene-results .results-collection .email-submit .icon.submit-icon,
+          #myrisk .scene-results .results-collection .download-button .icon.submit-icon {
+            background-image: url("../images/3.0_risk_assessment/07_global_buttons/Submit_BTN_icon.png"); }
+          #myrisk .scene-results .results-collection .email-submit .icon.download-icon,
+          #myrisk .scene-results .results-collection .download-button .icon.download-icon {
+            background-image: url("../images/3.0_risk_assessment/07_global_buttons/Download_BTN_icon.png"); }
+      #myrisk .scene-results .results-collection .download-col {
+        border-left: #8da4b7 1px solid; }
+      #myrisk .scene-results .results-collection input#results-email, #myrisk .scene-results .results-collection #signup .selectric-wrapper #results-email.selectric, #signup .selectric-wrapper #myrisk .scene-results .results-collection #results-email.selectric {
+        position: absolute;
+        height: 43px;
+        width: 100%;
+        padding: 8px 5px;
+        color: #000;
+        font-weight: 600;
+        font-size: 1.2em; }
+    #myrisk .scene-results .copy.fine {
+      font-size: 0.85em; }
+    #myrisk .scene-results .results {
+      height: 100%;
+      display: table; }
+    #myrisk .scene-results .result {
+      width: 20%;
+      display: table-cell;
+      /* float: left;*/
+      height: 100%; }
+      #myrisk .scene-results .result .result-thumbnail {
+        position: relative;
+        width: 100%; }
+      #myrisk .scene-results .result .result-thumbnail::after {
+        content: '';
+        display: block;
+        padding-bottom: 100%; }
+      #myrisk .scene-results .result .img-responsive {
+        max-width: 70%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translateY(-50%) translateX(-50%);
+        -ms-transform: translateY(-50%) translateX(-50%);
+        -moz-transform: translateY(-50%) translateX(-50%);
+        transform: translateY(-50%) translateX(-50%); }
+      #myrisk .scene-results .result.allergies {
+        background: linear-gradient(#ffbe6b, #fe9b20); }
+      #myrisk .scene-results .result.symptoms {
+        background: linear-gradient(#a3c4b9, #80aaa0); }
+      #myrisk .scene-results .result.other-conditions {
+        background: linear-gradient(#0c5f61, #0a3f45); }
+      #myrisk .scene-results .result.age-range {
+        background: linear-gradient(#b7b4ad 0, #b7b4ad 100px, #d1cec7 100px, #b6b7af 100%); }
+      #myrisk .scene-results .result.age-range dd::before {
+        content: '';
+        display: none; }
+      #myrisk .scene-results .result.management-plan {
+        background: linear-gradient(#14345d, #1f4975); }
+      #myrisk .scene-results .result dl {
+        color: #fff; }
+      #myrisk .scene-results .result dt {
+        display: block;
+        text-align: center;
+        font-weight: 600;
+        font-size: 1.1em;
+        text-transform: uppercase;
+        border-bottom: rgba(0, 0, 0, 0.25) 1px solid;
+        width: 90%;
+        margin: 0 auto;
+        padding-bottom: 7px; }
+      #myrisk .scene-results .result dd {
+        padding: 5px 10%;
+        line-height: 125%;
+        margin-left: 10px;
+        text-indent: -15px;
+        font-size: 1.1em; }
+      #myrisk .scene-results .result dd::before {
+        content: '\2022';
+        padding-right: 6px; }
+    #myrisk .scene-results .custom-checkbox input[type=checkbox], #myrisk .scene-results .custom-checkbox #signup .selectric-wrapper [type=checkbox].selectric, #signup .selectric-wrapper #myrisk .scene-results .custom-checkbox [type=checkbox].selectric {
+      display: none; }
+    #myrisk .scene-results .row.consent {
+      margin: 25px 0 0 0; }
+    #myrisk .scene-results .row.results-summary-header {
+      margin: 0 0 15px; }
+    #myrisk .scene-results .row.results-summary-header h3 {
+      color: #f0a53a; }
+    #myrisk .scene-results .row.results-summary-header .copy {
+      font-size: 1.2em; }
+    #myrisk .scene-results .custom-checkbox .box {
+      display: inline-block;
+      position: relative;
+      top: 0;
+      width: 20px;
+      height: 20px;
+      margin-left: 0;
+      box-shadow: 2px 2px 0 #ccc;
+      background: #fff;
+      border: #aaa 1px solid; }
+    #myrisk .scene-results .custom-checkbox .box::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: 0px;
+      width: 0;
+      height: 25px;
+      overflow: hidden;
+      background: transparent url("../images/3.0_risk_assessment/06_results/Check.png") 0 0;
+      background-size: 25px 25px;
+      transition: all 150ms; }
+    #myrisk .scene-results .custom-checkbox input[type=checkbox]:checked + .box::after, #myrisk .scene-results .custom-checkbox #signup .selectric-wrapper [type=checkbox].selectric:checked + .box::after, #signup .selectric-wrapper #myrisk .scene-results .custom-checkbox [type=checkbox].selectric:checked + .box::after {
+      width: 25px; }
+    #myrisk .scene-results .footer-container {
+      padding-top: 20px;
+      margin-top: 20px; }
+    #myrisk .scene-results .footer {
+      background: transparent;
+      padding-bottom: 45px; }
+      #myrisk .scene-results .footer, #myrisk .scene-results .footer a {
+        color: #000; }
+      #myrisk .scene-results .footer .footer-mylan-logo.dark, #myrisk .scene-results .footer .footer-mylan-logo.navbar-default.on-my-risk.on-risk-results {
+        display: initial; }
+      #myrisk .scene-results .footer .footer-mylan-logo.light {
+        display: none; }
+
+/* 
+    Created on : Apr 12, 2016, 4:35:17 PM
+    Author     : Mike
+*/
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  #myrisk .myrisk-carousel-control {
+    top: auto;
+    bottom: 75px;
+    -webkit-transform: none;
+    -ms-transform: none;
+    -moz-transform: none;
+    transform: none; }
+    #myrisk .myrisk-carousel-control.fixed-mobile {
+      position: fixed;
+      top: 50px; }
+  #myrisk .scene2 .symptoms-choice-container {
+    padding: 0 5%; }
+  #myrisk .scene3 .chart {
+    margin-top: 45px; }
+  #myrisk .scene4 .scene-header {
+    padding-bottom: 15px; }
+  #myrisk .scene5 header {
+    padding: 15px 0; }
+  #myrisk .scene5 #dartboard {
+    width: 46vw; }
+    #myrisk .scene5 #dartboard .dart {
+      width: 13.41667vw; }
+    #myrisk .scene5 #dartboard .dart-shadow {
+      width: 13.41667vw; }
+    #myrisk .scene5 #dartboard .outer-dot {
+      left: calc(50% - 2.3vw);
+      top: calc(50% - 2.3vw);
+      width: 4.6vw;
+      height: 4.6vw; }
+      #myrisk .scene5 #dartboard .outer-dot .dot-label {
+        width: 11.5vw; }
+      #myrisk .scene5 #dartboard .outer-dot.dot1 {
+        -webkit-transform: rotate(306deg) translate(23vw) translate(5px) rotate(-306deg);
+        -ms-transform: rotate(306deg) translate(23vw) translate(5px) rotate(-306deg);
+        -moz-transform: rotate(306deg) translate(23vw) translate(5px) rotate(-306deg);
+        transform: rotate(306deg) translate(23vw) translate(5px) rotate(-306deg); }
+      #myrisk .scene5 #dartboard .outer-dot.dot2 {
+        -webkit-transform: rotate(378deg) translate(23vw) translate(5px) rotate(-378deg);
+        -ms-transform: rotate(378deg) translate(23vw) translate(5px) rotate(-378deg);
+        -moz-transform: rotate(378deg) translate(23vw) translate(5px) rotate(-378deg);
+        transform: rotate(378deg) translate(23vw) translate(5px) rotate(-378deg); }
+      #myrisk .scene5 #dartboard .outer-dot.dot3 {
+        -webkit-transform: rotate(90deg) translate(23vw) translate(5px) rotate(-90deg);
+        -ms-transform: rotate(90deg) translate(23vw) translate(5px) rotate(-90deg);
+        -moz-transform: rotate(90deg) translate(23vw) translate(5px) rotate(-90deg);
+        transform: rotate(90deg) translate(23vw) translate(5px) rotate(-90deg); }
+      #myrisk .scene5 #dartboard .outer-dot.dot4 {
+        -webkit-transform: rotate(162deg) translate(23vw) translate(5px) rotate(-162deg);
+        -ms-transform: rotate(162deg) translate(23vw) translate(5px) rotate(-162deg);
+        -moz-transform: rotate(162deg) translate(23vw) translate(5px) rotate(-162deg);
+        transform: rotate(162deg) translate(23vw) translate(5px) rotate(-162deg); }
+      #myrisk .scene5 #dartboard .outer-dot.dot5 {
+        -webkit-transform: rotate(234deg) translate(23vw) translate(5px) rotate(-234deg);
+        -ms-transform: rotate(234deg) translate(23vw) translate(5px) rotate(-234deg);
+        -moz-transform: rotate(234deg) translate(23vw) translate(5px) rotate(-234deg);
+        transform: rotate(234deg) translate(23vw) translate(5px) rotate(-234deg); }
+      #myrisk .scene5 #dartboard .outer-dot .dot-label.label-bottom {
+        width: 46vw; }
+  #myrisk .scene5 #dartboard .outer-dot .dot-label {
+    width: 150px; }
+    #myrisk .scene5 #dartboard .outer-dot .dot-label.label-mobile-bottom-left {
+      left: -5px;
+      top: 5.4vw; }
+    #myrisk .scene5 #dartboard .outer-dot .dot-label.label-left, #myrisk .scene5 #dartboard .outer-dot .dot-label.label-right:not(.label-mobile-bottom-left) {
+      top: -0.5em; }
+    #myrisk .scene5 #dartboard .outer-dot .dot-label.label-bottom {
+      width: 30vw;
+      left: -10vw; }
+  #myrisk .scene-results .footer {
+    padding-bottom: 165px; } }
+/* 
+    Created on : Apr 4, 2016, 2:04:23 AM
+    Author     : Mike
+*/
+@media only screen and (max-width: 767px) {
+  #myrisk .tracker.carousel-indicators {
+    right: -75px;
+    top: -75px;
+    height: 68px;
+    background-size: cover;
+    z-index: 1031;
+    /*      &.fixed {
+            //  position: fixed;
+          }*/ }
+    #myrisk .tracker.carousel-indicators .step {
+      margin-top: 24px; }
+  #myrisk .myrisk-carousel-control {
+    top: auto;
+    bottom: 0;
+    width: 60px;
+    height: 57px;
+    -webkit-transform: none;
+    -ms-transform: none;
+    -moz-transform: none;
+    transform: none; }
+    #myrisk .myrisk-carousel-control.fixed-mobile {
+      position: fixed;
+      top: 50px; }
+    #myrisk .myrisk-carousel-control#myrisk-prev[data-current] {
+      background-image: url(../images/3.0_risk_assessment/07_global_buttons/mobile_left.png); }
+      #myrisk .myrisk-carousel-control#myrisk-prev[data-current][data-current='5'] {
+        width: 122px;
+        background-image: url(../images/3.0_risk_assessment/07_global_buttons/back_mobile.png); }
+      #myrisk .myrisk-carousel-control#myrisk-prev[data-current][data-current='6'] {
+        width: 122px;
+        background-image: url(../images/3.0_risk_assessment/07_global_buttons/back_to_results_mobile.png); }
+    #myrisk .myrisk-carousel-control#myrisk-next[data-current] {
+      background-image: url(../images/3.0_risk_assessment/07_global_buttons/mobile_right.png); }
+      #myrisk .myrisk-carousel-control#myrisk-next[data-current][data-current='0'] {
+        background-image: url(../images/3.0_risk_assessment/07_global_buttons/white_right_mobile.png); }
+      #myrisk .myrisk-carousel-control#myrisk-next[data-current][data-current='4'] {
+        width: 116px;
+        background-image: url(../images/3.0_risk_assessment/07_global_buttons/go_to_results_mobile.png); }
+      #myrisk .myrisk-carousel-control#myrisk-next[data-current][data-current='5'], #myrisk .myrisk-carousel-control#myrisk-next[data-current][data-current='6'] {
+        opacity: 0 !important;
+        cursor: default;
+        pointer-events: none; }
+  #myrisk .scene1 header {
+    padding-top: 65px; }
+    #myrisk .scene1 header h3 {
+      font-size: 0.6em; }
+      #myrisk .scene1 header h3 .swap {
+        font-size: 0.85em; }
+  #myrisk .scene1 .copy-container p.copy {
+    font-size: 0.4em; }
+    #myrisk .scene1 .copy-container p.copy.fine {
+      font-size: 0.35em; }
+  #myrisk .scene1 .ra-wheel-container {
+    margin-top: 35px; }
+  #myrisk .scene1 .ra-wheel .thewheel,
+  #myrisk .scene1 .ra-wheel .thewheel .img-responsive,
+  #myrisk .scene1 .ra-wheel #ra-wheel-image,
+  #myrisk .scene1 .ra-wheel #ra-wheel-click-listener {
+    width: 100vw;
+    height: 100vw;
+    max-width: 100vw;
+    max-height: 100vw; }
+  #myrisk .scene1 .ra-wheel p.copy {
+    position: absolute;
+    bottom: 100%;
+    top: auto;
+    transform: none;
+    width: 100%;
+    max-width: 100%; }
+    #myrisk .scene1 .ra-wheel p.copy .mobile-newline {
+      display: block; }
+  #myrisk .scene2 .scene-header {
+    margin-bottom: 0; }
+  #myrisk .scene2 .symptoms-choice-container {
+    padding: 0 0 15px; }
+    #myrisk .scene2 .symptoms-choice-container .symptoms {
+      margin-bottom: 10px;
+      padding-left: 5px;
+      padding-right: 5px;
+      padding: 0;
+      height: auto; }
+      #myrisk .scene2 .symptoms-choice-container .symptoms::after {
+        content: '';
+        display: block;
+        padding-bottom: 86.75%; }
+      #myrisk .scene2 .symptoms-choice-container .symptoms img {
+        position: absolute; }
+  #myrisk .scene3 .chart {
+    margin-top: 10px; }
+    #myrisk .scene3 .chart .chart-clip {
+      width: 210px;
+      height: 70px;
+      top: -25px; }
+    #myrisk .scene3 .chart .chart-page {
+      width: 96%; }
+      #myrisk .scene3 .chart .chart-page .chart-top {
+        min-height: unset; }
+        #myrisk .scene3 .chart .chart-page .chart-top .chart-top-img img {
+          width: 100%;
+          max-width: unset;
+          max-height: unset;
+          margin: 0; }
+        #myrisk .scene3 .chart .chart-page .chart-top .chart-top-copy .copy {
+          font-size: 1em;
+          margin: 0; }
+      #myrisk .scene3 .chart .chart-page .chart-item {
+        min-height: 14vh; }
+        #myrisk .scene3 .chart .chart-page .chart-item .box {
+          width: 4vh;
+          height: 4vh; }
+        #myrisk .scene3 .chart .chart-page .chart-item .label-text {
+          font-size: 0.9em; }
+  #myrisk .scene4 .girl {
+    margin: 0;
+    width: 20%; }
+    #myrisk .scene4 .girl#girl-young {
+      width: 14%; }
+  #myrisk .scene4 .slider-bar {
+    width: 80%;
+    left: -4px; }
+    #myrisk .scene4 .slider-bar .slider-track {
+      height: 8px; }
+      #myrisk .scene4 .slider-bar .slider-track .slider-indicator {
+        top: -16px;
+        width: 74px;
+        height: 40px; }
+        #myrisk .scene4 .slider-bar .slider-track .slider-indicator::before {
+          left: -4px;
+          width: 4px;
+          background-image: url("../images/3.0_risk_assessment/04_age/tracker_indicator_mobile.png"); }
+        #myrisk .scene4 .slider-bar .slider-track .slider-indicator.slider-indicator[data-value='0'] {
+          background-image: url("../images/3.0_risk_assessment/04_age/TrackerText0_mobile.png"); }
+        #myrisk .scene4 .slider-bar .slider-track .slider-indicator.slider-indicator[data-value='1'] {
+          background-image: url("../images/3.0_risk_assessment/04_age/TrackerText1_mobile.png"); }
+        #myrisk .scene4 .slider-bar .slider-track .slider-indicator.slider-indicator[data-value='2'] {
+          background-image: url("../images/3.0_risk_assessment/04_age/TrackerText2_mobile.png"); }
+        #myrisk .scene4 .slider-bar .slider-track .slider-indicator.slider-indicator[data-value='3'] {
+          background-image: url("../images/3.0_risk_assessment/04_age/TrackerText3_mobile.png"); }
+  #myrisk .scene5 #dartboard {
+    width: 50vw; }
+    #myrisk .scene5 #dartboard .dart {
+      width: 14.58333vw; }
+    #myrisk .scene5 #dartboard .dart-shadow {
+      width: 14.58333vw; }
+    #myrisk .scene5 #dartboard .outer-dot {
+      left: calc(50% - 2.5vw);
+      top: calc(50% - 2.5vw);
+      width: 5vw;
+      height: 5vw; }
+      #myrisk .scene5 #dartboard .outer-dot .dot-label {
+        width: 12.5vw; }
+      #myrisk .scene5 #dartboard .outer-dot.dot1 {
+        -webkit-transform: rotate(306deg) translate(25vw) translate(5px) rotate(-306deg);
+        -ms-transform: rotate(306deg) translate(25vw) translate(5px) rotate(-306deg);
+        -moz-transform: rotate(306deg) translate(25vw) translate(5px) rotate(-306deg);
+        transform: rotate(306deg) translate(25vw) translate(5px) rotate(-306deg); }
+      #myrisk .scene5 #dartboard .outer-dot.dot2 {
+        -webkit-transform: rotate(378deg) translate(25vw) translate(5px) rotate(-378deg);
+        -ms-transform: rotate(378deg) translate(25vw) translate(5px) rotate(-378deg);
+        -moz-transform: rotate(378deg) translate(25vw) translate(5px) rotate(-378deg);
+        transform: rotate(378deg) translate(25vw) translate(5px) rotate(-378deg); }
+      #myrisk .scene5 #dartboard .outer-dot.dot3 {
+        -webkit-transform: rotate(90deg) translate(25vw) translate(5px) rotate(-90deg);
+        -ms-transform: rotate(90deg) translate(25vw) translate(5px) rotate(-90deg);
+        -moz-transform: rotate(90deg) translate(25vw) translate(5px) rotate(-90deg);
+        transform: rotate(90deg) translate(25vw) translate(5px) rotate(-90deg); }
+      #myrisk .scene5 #dartboard .outer-dot.dot4 {
+        -webkit-transform: rotate(162deg) translate(25vw) translate(5px) rotate(-162deg);
+        -ms-transform: rotate(162deg) translate(25vw) translate(5px) rotate(-162deg);
+        -moz-transform: rotate(162deg) translate(25vw) translate(5px) rotate(-162deg);
+        transform: rotate(162deg) translate(25vw) translate(5px) rotate(-162deg); }
+      #myrisk .scene5 #dartboard .outer-dot.dot5 {
+        -webkit-transform: rotate(234deg) translate(25vw) translate(5px) rotate(-234deg);
+        -ms-transform: rotate(234deg) translate(25vw) translate(5px) rotate(-234deg);
+        -moz-transform: rotate(234deg) translate(25vw) translate(5px) rotate(-234deg);
+        transform: rotate(234deg) translate(25vw) translate(5px) rotate(-234deg); }
+      #myrisk .scene5 #dartboard .outer-dot .dot-label.label-bottom {
+        width: 50vw; }
+  #myrisk .scene5 header {
+    font-size: 1.6em;
+    padding: 15px 0; }
+  #myrisk .scene5 #dartboard {
+    margin-top: 7px; }
+    #myrisk .scene5 #dartboard .outer-dot .dot-label {
+      min-width: 100px;
+      font-size: 1em;
+      text-align: left !important;
+      width: 25vw;
+      /*        &.label-right {
+                padding-left: 15px;
+                @include transform( translateY(-50%) );
+              }*/ }
+      #myrisk .scene5 #dartboard .outer-dot .dot-label.label-bottom {
+        width: 25vw;
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        transform: translateX(-50%); }
+      #myrisk .scene5 #dartboard .outer-dot .dot-label.label-left {
+        right: -22px; }
+      #myrisk .scene5 #dartboard .outer-dot .dot-label.label-right {
+        top: auto;
+        bottom: 0 !important; }
+      #myrisk .scene5 #dartboard .outer-dot .dot-label.label-mobile-top-left {
+        bottom: 0 !important;
+        top: auto !important;
+        right: calc(100% + 2px) !important;
+        padding-right: 0 !important; }
+      #myrisk .scene5 #dartboard .outer-dot .dot-label.label-mobile-bottom-left {
+        padding-left: 0 !important;
+        top: 30px !important;
+        transform: none !important;
+        left: -14px !important; }
+  #myrisk .scene-results .row.result {
+    width: 100%; }
+  #myrisk .scene-results .result {
+    display: block;
+    width: 100%;
+    height: auto;
+    float: left;
+    padding: 10px 0; }
+    #myrisk .scene-results .result .result-thumbnail {
+      display: none; }
+    #myrisk .scene-results .result dl {
+      margin: 0 0 0 15px; }
+      #myrisk .scene-results .result dl dt {
+        text-align: left;
+        border: none;
+        margin: 0;
+        padding: 0; }
+      #myrisk .scene-results .result dl dd {
+        text-indent: 0;
+        padding: 5px 0;
+        margin: 0; }
+    #myrisk .scene-results .result.allergies dl dd {
+      display: inline-block;
+      margin: 0; }
+      #myrisk .scene-results .result.allergies dl dd::before {
+        display: none; }
+      #myrisk .scene-results .result.allergies dl dd:not(.last)::after {
+        content: ', '; }
+  #myrisk .scene-results .footer-container {
+    padding-top: 35px; }
+  #myrisk .scene-results .footer {
+    padding-bottom: 75px; } }
+#signup {
+  padding-top: 35px; }
+  #signup .signup-pencil {
+    width: 62px;
+    margin: 0 auto; }
+  #signup .dropdown button {
+    width: 100%;
+    text-align: left; }
+  #signup .signup-button {
+    width: 100%; }
+  #signup input, #signup .selectric-wrapper .selectric {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #000;
+    font-size: 22px;
+    line-height: 100%;
+    color: white;
+    height: 44px; }
+  #signup label.error {
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    transform: translateZ(0); }
+  #signup .selectric-wrapper .selectric {
+    border-radius: 4px; }
+    #signup .selectric-wrapper .selectric p.label {
+      color: #fff;
+      opacity: .75;
+      transition: opacity 250ms;
+      font-size: 22px;
+      font-weight: 400;
+      text-align: left;
+      padding-left: 0;
+      color: white; }
+    #signup .selectric-wrapper .selectric b.button {
+      color: #fff;
+      opacity: 75; }
+      #signup .selectric-wrapper .selectric b.button::after {
+        border-width: 11px;
+        transition: border-top-color 250ms; }
+  #signup .selectric-wrapper .selectric-items {
+    border: none;
+    background: transparent; }
+    #signup .selectric-wrapper .selectric-items .selectric-scroll {
+      border-bottom-left-radius: 4px;
+      border-bottom-right-radius: 4px; }
+    #signup .selectric-wrapper .selectric-items li {
+      background: rgba(11, 52, 62, 0.95);
+      color: rgba(255, 255, 255, 0.75);
+      font-size: 22px;
+      font-weight: 400;
+      transition: color 250ms; }
+      #signup .selectric-wrapper .selectric-items li.selected {
+        background: #153c52;
+        color: #fff; }
+      #signup .selectric-wrapper .selectric-items li:hover {
+        background: rgba(21, 60, 82, 0.95);
+        color: #fff; }
+  #signup .selectric-wrapper.selectric-hover .selectric p.label {
+    opacity: 1; }
+  #signup .selectric-wrapper.selectric-hover .selectric b.button::after {
+    border-top-color: #fff; }
+  #signup input::-webkit-input-placeholder, #signup .selectric-wrapper .selectric::-webkit-input-placeholder {
+    color: #fff;
+    opacity: .75; }
+    #signup input::-webkit-input-placeholder:hover, #signup .selectric-wrapper .selectric::-webkit-input-placeholder:hover {
+      opacity: 1; }
+  #signup input::-moz-placeholder, #signup .selectric-wrapper .selectric::-moz-placeholder {
+    color: #fff;
+    opacity: .75; }
+    #signup input::-moz-placeholder:hover, #signup .selectric-wrapper .selectric::-moz-placeholder:hover {
+      opacity: 1; }
+  #signup input::-moz-placeholder, #signup .selectric-wrapper .selectric::-moz-placeholder {
+    color: #fff;
+    opacity: .75; }
+    #signup input::-moz-placeholder:hover, #signup .selectric-wrapper .selectric::-moz-placeholder:hover {
+      opacity: 1; }
+  #signup input::-ms-input-placeholder, #signup .selectric-wrapper .selectric::-ms-input-placeholder {
+    color: #fff;
+    opacity: .75; }
+    #signup input::-ms-input-placeholder:hover, #signup .selectric-wrapper .selectric::-ms-input-placeholder:hover {
+      opacity: 1; }
+  #signup .small-disclaimer {
+    font-size: .75em;
+    margin: 25px 0; }
+  #signup .signup-submit {
+    height: 41px;
+    font-size: 16.8px;
+    padding: inherit;
+    cursor: pointer; }
+
+#signup_modal {
+  padding-right: 0 !important; }
+  #signup_modal .modal-dialog {
+    width: auto;
+    margin: 0 auto;
+    max-height: 100vh;
+    overflow: auto; }
+  #signup_modal .modal-content {
+    min-height: 100vh;
+    background: #0B343E url("../images/0.0_home_global/background_sign_up.png") 50% 0% no-repeat;
+    background: url("../images/0.0_home_global/background_sign_up.png") 50% 0% no-repeat, linear-gradient(#0b3656, #0b343e);
+    background-size: auto 100%; }
+    #signup_modal .modal-content table {
+      height: 100vh; }
+  #signup_modal .thank-you {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0; }
+    #signup_modal .thank-you h2, #signup_modal .thank-you p.copy {
+      color: white; }
+  #signup_modal .footer-container {
+    background: #153c52;
+    display: block;
+    width: 100%;
+    padding-top: 20px;
+    margin-top: 20px; }
+
+.datepicker {
+  z-index: 9999 !important; }
+
+/* 
+    Created on : Apr 3, 2016, 6:34:28 PM
+    Author     : Mike
+*/
+.thank-you .thankyou-container {
+  height: 100%; }
+.thank-you .center-absolute {
+  bottom: 50%;
+  -webkit-transform: translateY(50%);
+  -ms-transform: translateY(50%);
+  -moz-transform: translateY(50%);
+  transform: translateY(50%); }
+.thank-you h2 {
+  color: #ffa233; }
+.thank-you p.copy {
+  color: black; }
+
+/* 
+    Created on : Apr 4, 2016, 4:18:24 AM
+    Author     : Mike
+*/
+.footer {
+  padding-bottom: 10px;
+  font-size: 1em; }
+  .footer ul.footer-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 5px; }
+    .footer ul.footer-nav li {
+      display: inline-block; }
+      .footer ul.footer-nav li:not(:first-child)::before {
+        content: '|';
+        padding: 0 3px; }
+    .footer ul.footer-nav a {
+      color: white;
+      text-decoration: underline; }
+  .footer .small {
+    font-size: 0.65em; }
+  .footer .footer-mylan-logo {
+    height: 4.5em; }
+    .footer .footer-mylan-logo.dark, .footer .footer-mylan-logo.navbar-default.on-my-risk.on-risk-results {
+      display: none; }
+  .footer #_bapw-link span {
+    text-decoration: underline !important; }
+
+.scene13 .disclaimer {
+  margin-top: 0; }
+
+.scene12 h2 {
+  font-size: 44px; }
+
+.scene14 .copy-container,
+.scene12 .copy-container {
+  top: 150px; }
+
+.scene14 header {
+  top: 0; }
+
+.image3 .figure-container {
+  margin-top: -25px; }
+
+.figure-row {
+  position: absolute;
+  width: 100%;
+  top: 150px; }
+
+.figure-row .caption {
+  margin-top: 15px; }
+
+.clock-container {
+  width: 530px;
+  height: 530px;
+  top: 10px;
+  z-index: 8; }
+
+.clock-copy {
+  top: 130px;
+  z-index: 10;
+  width: 606px; }
+
+.clock-left-copy {
+  width: 160px;
+  top: 20px;
+  position: absolute;
+  left: 130px; }
+
+.clock-right-copy {
+  width: 160px;
+  left: 318px;
+  position: absolute;
+  top: 230px; }
+
+.countdown {
+  width: 385px;
+  position: relative;
+  margin: 0 auto;
+  top: 100px; }
+
+.countdown-copy {
+  top: 320px;
+  position: absolute;
+  width: 40%;
+  text-align: center;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  z-index: 3; }
+
+#countdown-clock-container {
+  top: 0; }
+
+.scene16 .disclaimer-container {
+  top: 360px; }
+
+.red-white-background,
+.red-background,
+.treatment-background-left,
+.treatment-background-right {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+.red-white-background,
+.red-background {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+.red-white-background {
+  background: url("../images/2.0_treatment/background-right.png");
+  background-position: 1% bottom;
+  background-repeat: no-repeat;
+  z-index: 5;
+  background-size: cover;
+  left: 0;
+  width: 100%; }
+  .red-white-background.retracted {
+    opacity: 0;
+    background-position: -149% bottom; }
+  .red-white-background.half-retracted {
+    background-position: -75% bottom; }
+
+.red-background {
+  background: url("../images/2.0_treatment/background-left.png");
+  background-position: 91% 0;
+  background-repeat: no-repeat;
+  z-index: 5;
+  background-size: cover; }
+  .red-background.retracted {
+    opacity: 0;
+    background-position: 246% 0; }
+  .red-background.half-retracted {
+    background-position: 175% 0; }
+
+.treatment-background-left {
+  background: url("../images/2.0_treatment/white_left_background.png");
+  background-position: 103% 0;
+  background-repeat: no-repeat;
+  z-index: 3;
+  background-size: cover;
+  left: 0;
+  width: 100%; }
+  .treatment-background-left.retracted {
+    opacity: 0;
+    background-position: 174% 0; }
+
+.treatment-background-right {
+  background: url("../images/2.0_treatment/white_right_background.png");
+  background-position: 21% 0;
+  background-repeat: no-repeat;
+  z-index: 3;
+  background-size: cover; }
+  .treatment-background-right.retracted {
+    opacity: 0;
+    background-position: -69% 0; }
+
+.treatment-background {
+  background: url("../images/treatment_background.png");
+  z-index: 8;
+  background-size: cover;
+  background-position: 48% 0;
+  background-repeat: no-repeat;
+  left: 0;
+  width: 100%; }
+
+.update-treatment-background .treatment-background-right {
+  display: none; }
+.update-treatment-background .treatment-background-left {
+  display: none; }
+
+#education.update-treatment-background {
+  background: url("../images/treatment_background.jpg"); }
+
+#education.antihistamines-background {
+  background: url("../images/2.0_treatment/background-right.png"); }
+
+#education.countdown-background {
+  background: url("../images/2.0_treatment/background-left.png"); }
+
+.clock {
+  position: absolute;
+  top: 0;
+  width: 530px;
+  height: 530px;
+  opacity: 0; }
+
+.clock_1 .clock_1 {
+  opacity: 1; }
+
+.clock_2 .clock_2 {
+  opacity: 1; }
+
+.clock_3 .clock_3 {
+  opacity: 1; }
+
+.clock_4 .clock_4 {
+  opacity: 1; }
+
+.clock_5 .clock_5 {
+  opacity: 1; }
+
+.clock_6 .clock_6 {
+  opacity: 1; }
+
+.clock_7 .clock_7 {
+  opacity: 1; }
+
+.clock_1 .clock_1 {
+  opacity: 1; }
+
+.clock_2 .clock_2 {
+  opacity: 1; }
+
+.clock_3 .clock_3 {
+  opacity: 1; }
+
+.clock_4 .clock_4 {
+  opacity: 1; }
+
+.clock_5 .clock_5 {
+  opacity: 1; }
+
+.clock_6 .clock_6 {
+  opacity: 1; }
+
+.clock_7 .clock_7 {
+  opacity: 1; }
+
+.clock_8 .clock_8 {
+  opacity: 1; }
+
+.clock_9 .clock_9 {
+  opacity: 1; }
+
+.clock_10 .clock_10 {
+  opacity: 1; }
+
+.clock_11 .clock_11 {
+  opacity: 1; }
+
+.clock_12 .clock_12 {
+  opacity: 1; }
+
+.clock_13 .clock_13 {
+  opacity: 1; }
+
+.clock_14 .clock_14 {
+  opacity: 1; }
+
+.clock_15 .clock_15 {
+  opacity: 1; }
+
+.clock_16 .clock_16 {
+  opacity: 1; }
+
+.clock_17 .clock_17 {
+  opacity: 1; }
+
+.clock_18 .clock_18 {
+  opacity: 1; }
+
+.clock_19 .clock_19 {
+  opacity: 1; }
+
+.clock_20 .clock_20 {
+  opacity: 1; }
+
+.clock_21 .clock_21 {
+  opacity: 1; }
+
+.clock_22 .clock_22 {
+  opacity: 1; }
+
+.clock_23 .clock_23 {
+  opacity: 1; }
+
+.clock_24 .clock_24 {
+  opacity: 1; }
+
+.clock_25 .clock_25 {
+  opacity: 1; }
+
+.clock_26 .clock_26 {
+  opacity: 1; }
+
+.clock_27 .clock_27 {
+  opacity: 1; }
+
+.clock_28 .clock_28 {
+  opacity: 1; }
+
+.clock_29 .clock_29 {
+  opacity: 1; }
+
+.clock_30 .clock_30 {
+  opacity: 1; }
+
+.clock_31 .clock_31 {
+  opacity: 1; }
+
+.clock_32 .clock_32 {
+  opacity: 1; }
+
+.clock_33 .clock_33 {
+  opacity: 1; }
+
+.clock_34 .clock_34 {
+  opacity: 1; }
+
+.clock_35 .clock_35 {
+  opacity: 1; }
+
+.clock_36 .clock_36 {
+  opacity: 1; }
+
+.clock_37 .clock_37 {
+  opacity: 1; }
+
+/* 
+    Created on : Apr 13, 2016, 3:01:32 PM
+    Author     : Mike
+*/
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  #myrisk .scene5 #dartboard .outer-dot .dot-label.label-left {
+    width: 20vw; } }
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-width: 767px) and (max-width: 1200px) {
+  #treatment, #education, .everyscenecontainer {
+    height: 100vh; }
+
+  #education {
+    /* This is to eliminate some of the rendering issues with things popping in and out */
+    -webkit-transform: translate3d(0, 0, 0); }
+
+  .treatment-background-right {
+    background-position: 11% 0; }
+
+  .treatment-background-left {
+    background-position: 92% 0; }
+
+  .digestive-symptoms-container {
+    top: 0; }
+    .digestive-symptoms-container .image-container {
+      height: 14em;
+      position: relative; }
+      .digestive-symptoms-container .image-container .digestive-symtpoms-copy {
+        bottom: 5%;
+        top: auto;
+        font-size: 1em; }
+      .digestive-symptoms-container .image-container img {
+        position: absolute;
+        bottom: 0;
+        top: auto; }
+      .digestive-symptoms-container .image-container.nausea {
+        top: auto; }
+      .digestive-symptoms-container .image-container.vomit {
+        top: auto; }
+      .digestive-symptoms-container .image-container.dia {
+        top: auto; } }
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  .push-down-under-arrow {
+    padding-top: 120px; }
+
+  #treatment, #education, .everyscenecontainer {
+    height: 100vh;
+    width: 100vw !important; }
+
+  #education #scene3_copy p.copy {
+    width: auto; }
+  #education .respiratory-microscope-right-caption {
+    top: 470px;
+    left: -66px; }
+  #education .circle_graph {
+    top: 165px; }
+  #education #chart-copy {
+    margin-left: -55px; }
+  #education .everyscenecontainer {
+    z-index: 10; }
+  #education #bloodstream-label {
+    z-index: 12; }
+  #education .digestive-symptoms-container,
+  #education .copy-container {
+    z-index: 11; }
+
+  .digestive-symptoms-container {
+    top: -80px; }
+
+  .treatment-background-right {
+    background-position: 30% 0; }
+
+  .treatment-background-left {
+    background-position: 82% 0; }
+
+  .red-background {
+    background-position: 92% 0; }
+    .red-background.half-retracted {
+      background-position: 120% 0; }
+
+  .red-white-background {
+    background-position: 10% bottom; }
+    .red-white-background.half-retracted {
+      background-position: -20% bottom; } }
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  #education .microscope-histamine {
+    width: 300px;
+    top: 338px;
+    left: 195px; }
+  #education #scene3_copy p.copy {
+    width: auto; }
+  #education .clock-container {
+    top: 150px; }
+  #education .clock-copy {
+    top: 270px; }
+  #education .circle_graph {
+    width: 351px;
+    height: 442px;
+    top: 260px;
+    left: -419px; }
+  #education .heart {
+    left: -541px;
+    z-index: 2; }
+  #education .symptom-icons {
+    top: 140px;
+    left: -110px; }
+  #education #cardiovascular-symptoms-copy-2 {
+    top: -39px; }
+  #education .treatment-background-right {
+    background-position: 30% 0; }
+    #education .treatment-background-right.retracted {
+      background-position: -25% 0; }
+  #education .treatment-background-left {
+    background-position: 82% 0; }
+    #education .treatment-background-left.retracted {
+      background-position: 128% 0; }
+  #education .red-background {
+    background-position: 86% 0; }
+    #education .red-background.half-retracted {
+      background-position: 105% 0; }
+  #education .red-white-background {
+    background-position: 21% bottom; }
+    #education .red-white-background.half-retracted {
+      background-position: -5% bottom; }
+  #education .everyscenecontainer {
+    z-index: 10; }
+  #education #bloodstream-label {
+    z-index: 12; }
+  #education .digestive-symptoms-container,
+  #education .copy-container {
+    z-index: 11; } }
+
+/*# sourceMappingURL=main.css.map */
+
+/*
+     FILE ARCHIVED ON 04:41:23 Feb 19, 2019 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 02:18:09 Apr 25, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.441
+  exclusion.robots: 0.017
+  exclusion.robots.policy: 0.008
+  esindex: 0.009
+  cdx.remote: 13.102
+  LoadShardBlock: 188.315 (3)
+  PetaboxLoader3.datanode: 199.339 (5)
+  load_resource: 238.493 (2)
+  PetaboxLoader3.resolve: 104.648 (2)
+*/
